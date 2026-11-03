@@ -4,7 +4,7 @@ title: Gas percentage is not partial pressure practice
 type: question
 topic: gas
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - GAS-003
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-In a classroom model, 0.32 × 4 bar absolute = 1.28 bar oxygen partial pressure. No working-depth or exposure approval follows from that multiplication.
+A fictional gas sample has an oxygen fraction of 0.32. Ambient pressure is 4 bar absolute.
 
-Which input belongs in the multiplication?
+What is its oxygen partial pressure, before any assessment of exposure suitability?
 
 ## Choices
 
-A. Cylinder fill pressure.
-B. Gauge pressure with atmosphere omitted.
-C. The fraction as the number 32.
-D. Absolute ambient pressure.
+A. 128 bar.
+B. 0.96 bar.
+C. 4.32 bar.
+D. 1.28 bar.
 
 ## Answer and explanation
 
-**D.** Partial pressure uses the gas fraction and absolute ambient pressure. Fill pressure is a cylinder storage property; 32 percent is 0.32 as a fraction.
+**D.** Multiply fraction by absolute ambient pressure: 0.32 × 4 = 1.28 bar. Using 3 bar would omit surface pressure. This result alone does not approve a gas or exposure.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

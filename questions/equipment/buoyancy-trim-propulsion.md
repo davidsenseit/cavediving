@@ -4,7 +4,7 @@ title: Control position before adding tasks practice
 type: question
 topic: equipment
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - EQP-001
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-A diver holds depth during a camera task but repeatedly clouds the floor. A stable depth trace alone misses the propulsion and trim problem.
+During a camera task, a diver's logged depth stays nearly constant, while a teammate observes sediment being disturbed behind the fins.
 
-What does the stable depth trace demonstrate?
+What does the depth record establish?
 
 ## Choices
 
-A. That no sediment was disturbed.
-B. That the diver is ready for any restriction.
-C. That propulsion was appropriate.
-D. Only one aspect of position control.
+A. That propulsion had no environmental effect.
+B. That the diver is ready for a tighter passage.
+C. That the diver's body orientation was suitable.
+D. That depth was stable, without proving trim or appropriate propulsion.
 
 ## Answer and explanation
 
-**D.** Depth stability does not establish body orientation, fin clearance or low-impact movement. The alternatives infer skills the trace does not measure.
+**D.** A depth trace records vertical position. It does not measure fin clearance or body orientation and cannot demonstrate low-impact movement.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

@@ -4,7 +4,7 @@ title: A connection and a route decision are different
 type: knowledge
 topic: navigation
 status: draft
-version: 0.1.0
+version: 0.2.0
 source_ids:
   - DAN-LOWVIS
   - GIBB-NAV
@@ -14,11 +14,13 @@ source_ids:
 
 ## Core idea
 
-A line junction presents a directional decision; a physical break also presents a continuity problem. Terms such as jump and gap should be defined within the team’s training and local practice. Knowing a label does not establish a safe connection, exit direction or ability to negotiate it.
+A junction asks which branch leads back to the team's exit. A break in the line adds a separate problem: maintaining an uninterrupted physical reference.
+
+In these entries, a jump is a temporary connection from a route line to a separate branch line; a gap connects separated ends along a route. Confirm terminology during the team briefing because local usage can vary. Both require suitable line connections and exit identification within the diver's training. Seeing the next line is not a connection.
 
 ## Original example
 
-Two lines are visible across clear water. Remembering the view does not replace an identified continuous route when visibility changes.
+A side-passage line begins within sight of the main route. Its proximity does not establish continuity. The team must also distinguish its return direction from other branches and other teams' installations.
 
 ## Limits and review
 
@@ -27,3 +29,4 @@ Draft learning material; source checking is not expert approval. This entry is n
 ## Check understanding
 
 Explain the assumption most likely to make the example unsafe if ignored.
+

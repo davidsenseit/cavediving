@@ -4,7 +4,7 @@ title: Conditions change the return problem practice
 type: question
 topic: foundations
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - FND-002
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-A team has only last season’s description of a passage. Its first decision is whether current information is sufficient, not how to reach the previous distance.
+A team reviews a passage description from last season. Before deciding whether the planned route remains appropriate, it receives new observations.
 
-Which observation most directly changes return planning?
+Which observation directly changes the return workload?
 
 ## Choices
 
-A. A stronger inward flow than expected.
-B. A newer camera.
-C. A different logbook cover.
-D. A recent quiz score.
+A. Current now carries a swimmer farther into the cave.
+B. A diver replaced a camera.
+C. The team bought matching logbooks.
+D. A diver improved a quiz score.
 
 ## Answer and explanation
 
-**A.** Inward flow can make return harder. The other facts do not describe the exit workload. Do not convert this question into a site-specific flow forecast.
+**A.** A return against an inward current may require more effort and gas. Current strength and direction need assessment; this fictional observation does not establish conditions at any real cave.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

@@ -4,8 +4,9 @@ title: Redundancy must survive the same failure
 type: knowledge
 topic: equipment
 status: draft
-version: 0.1.0
+version: 0.2.0
 source_ids:
+  - DAN-LOWVIS
   - EDITORIAL-REASONING
 ---
 
@@ -13,11 +14,13 @@ source_ids:
 
 ## Core idea
 
-Count independent functions, not just objects. Two devices relying on one failed power supply may lose the same function together. Evaluate access, operation with gloves, compatibility, maintenance and likely common failure causes. Configuration choices require practical assessment, not a universal shopping list.
+Equipment redundancy depends on what remains usable after a failure. A shared battery, inaccessible mounting or incompatible connection can defeat an apparent backup.
+
+For the conventional open-circuit cave-diving context of these entries, each diver carries at least three separately powered lights: a primary and two backups. Check their operation, accessibility and duration against the planned dive and contingency requirements; a count alone cannot establish suitability. More demanding dives may require additional provision. A primary-light failure ends further penetration: use the backup and follow the team's trained exit procedure.
 
 ## Original example
 
-Two lights share one battery pack. This is two light heads, but not two independent power supplies.
+A diver packs three light heads, but two draw power from the same battery. A failure of that battery removes both heads. Identify independent power and usable backup duration rather than counting visible lamps.
 
 ## Limits and review
 
@@ -26,3 +29,4 @@ Draft learning material; source checking is not expert approval. This entry is n
 ## Check understanding
 
 Explain the assumption most likely to make the example unsafe if ignored.
+

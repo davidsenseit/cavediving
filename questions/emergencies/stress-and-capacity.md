@@ -4,7 +4,7 @@ title: Plan around reduced capacity practice
 type: question
 topic: emergencies
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - EMR-001
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-A dry briefing sounds fluent but the team has not practiced the proposed equipment response. That is a capability gap, not a wording problem.
+A team can explain an equipment-failure response in a briefing, but no one can recall having practiced it in the planned configuration.
 
-Which evidence most directly addresses that gap?
+Which evidence would most directly address the capability gap?
 
 ## Choices
 
-A. A longer written answer.
-B. A higher multiple-choice score.
-C. Recent supervised demonstration of the relevant skill.
-D. A confident prediction.
+A. A longer written explanation.
+B. A higher theory score.
+C. Recent supervised performance of the relevant skill in that configuration.
+D. A confident prediction from the team leader.
 
 ## Answer and explanation
 
-**C.** Demonstration addresses practical performance. Neither confidence nor theoretical recall establishes execution under failure conditions. A demonstration still does not guarantee success.
+**C.** Demonstrated performance provides practical evidence that explanation and confidence do not. It still does not guarantee success during a real failure.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

@@ -4,7 +4,7 @@ title: Markers need context and ownership practice
 type: question
 topic: navigation
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - NAV-002
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-An unfamiliar arrow points away from the team’s recorded exit direction. Do not reinterpret the team route solely to match the arrow. Resolve navigation against the continuous verified route and trained procedures.
+At an intersection, an unfamiliar permanent arrow points in a direction different from the exit the team has positively identified.
 
-What can an unfamiliar arrow establish by itself?
+What does that arrow establish on its own?
 
 ## Choices
 
-A. That the team’s exit is closer that way.
-B. That an unvisited opening is usable.
-C. Neither the team’s exit nor its accessibility.
-D. That local protocols match the team’s training.
+A. That the team should change exits.
+B. That a previously unvisited opening can be used.
+C. Neither the identity nor the accessibility of the team's exit.
+D. That personal markers can be removed.
 
 ## Answer and explanation
 
-**C.** A marker is contextual evidence. It cannot establish those route and access claims alone. This is not a marker-placement procedure.
+**C.** An unfamiliar marker alone cannot establish the team's usable exit. Interpret it in context using the verified route and trained navigation practices.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

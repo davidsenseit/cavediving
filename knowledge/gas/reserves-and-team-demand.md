@@ -4,7 +4,7 @@ title: Compare available gas with the actual demand model
 type: knowledge
 topic: gas
 status: draft
-version: 0.1.0
+version: 0.2.0
 source_ids:
   - DAN-THIRDS
   - ALGEBRA
@@ -14,11 +14,13 @@ source_ids:
 
 ## Core idea
 
-Equal starting pressure does not imply equal gas quantity in unequal cylinders. A fraction rule is a starting constraint, not proof that a team can exit after a failure. Evaluate accessible gas against both divers’ exit demand, delay, depth profile, exertion, decompression and remaining reserve; cylinder access failures can invalidate a total-volume comparison.
+The familiar thirds allocation limits entry use to one third, leaving a third for return and a third for contingencies. At the turn, at least two thirds remains under that allocation. It is a ceiling on entry use, not a target to consume and not proof of an adequate emergency reserve. Training restrictions, conditions or the failure model can require an earlier turn.
+
+Match quantities and demands across the team. Equal pressure readings do not mean equal gas quantities when cylinder sizes differ. Evaluate gas actually accessible after the modeled failure against both divers' exit demand, including delay, depth, exertion and decompression. Separate cylinders and access failures can change what a donor can supply. A team turns when its first applicable limit is reached.
 
 ## Original example
 
-For a deliberately simplified two-person model, combined remaining demand of 3220 surface-equivalent L exceeds a donor’s 3080 L by 140 L. The inequality identifies a shortfall under those assumptions; it does not calculate a safe real-world turn.
+A fictional exercise stipulates 2,600 surface-equivalent litres accessible to a donor and 2,750 litres of combined exit demand. The modeled shortage is 150 litres. Neither figure establishes an actual turn pressure or validates the assumed demand.
 
 ## Limits and review
 
@@ -27,3 +29,4 @@ Draft learning material; source checking is not expert approval. This entry is n
 ## Check understanding
 
 Explain the assumption most likely to make the example unsafe if ignored.
+

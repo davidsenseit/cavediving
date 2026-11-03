@@ -4,7 +4,7 @@ title: A decompression model estimates risk practice
 type: question
 topic: physiology
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - DEC-001
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-Two divers complete a similar profile; one feels unwell. Matching displays do not rule out a medical problem.
+After a dive, a participant reports feeling unwell. The recorded profile appears to remain within the computer's displayed limits.
 
-What does a compliant computer display establish?
+Which interpretation is justified?
 
 ## Choices
 
-A. That symptoms cannot be diving-related.
-B. That a model was followed, not that medical risk is zero.
-C. That both divers have identical physiology.
-D. That medical advice is unnecessary.
+A. The symptoms cannot be related to the dive.
+B. Apparent compliance does not rule out a medical problem.
+C. The display proves the diver's actual physiology was safe.
+D. Medical assessment is unnecessary.
 
 ## Answer and explanation
 
-**B.** A model is not a diagnosis or guarantee. The alternatives infer physiological certainty from an instrument. This question does not diagnose symptoms or prescribe treatment.
+**B.** The computer estimates exposure using a model; it is not a physiological examination. A symptom concern warrants appropriate medical assessment.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

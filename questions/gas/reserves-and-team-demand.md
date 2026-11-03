@@ -4,7 +4,7 @@ title: Compare available gas with the actual demand model practice
 type: question
 topic: gas
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - GAS-002
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-For a deliberately simplified two-person model, combined remaining demand of 3220 surface-equivalent L exceeds a donor’s 3080 L by 140 L. The inequality identifies a shortfall under those assumptions; it does not calculate a safe real-world turn.
+A classroom failure model gives a donor 2,600 surface-equivalent litres of accessible gas. The stated combined exit demand is 2,750 litres.
 
-What follows from the simplified comparison?
+Which assessment follows from these numbers alone?
 
 ## Choices
 
-A. There is a 140 L modeled shortfall.
-B. A fraction rule guarantees the exit.
-C. Pressure alone proves compatibility.
-D. A turn pressure can be approved without a return profile.
+A. There is a modeled shortage of 150 litres; the demand assumptions still need review.
+B. The donor has 150 litres of excess reserve.
+C. The figures establish an operational turn pressure.
+D. Thirds make the shortfall irrelevant.
 
 ## Answer and explanation
 
-**A.** 3220 − 3080 = 140. The other answers claim conclusions absent from the demand model. See the separate calculation review for the supplied example’s limitations.
+**A.** Demand exceeds supply by 2,750 − 2,600 = 150 litres. Arithmetic detects a deficit within the stated model but cannot validate the return profile or emergency assumptions.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

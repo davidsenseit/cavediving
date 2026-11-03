@@ -4,7 +4,7 @@ title: Competence is specific to the task practice
 type: question
 topic: foundations
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - FND-001
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-A familiar open-water buddy proposes entering a cave because both divers have redundant lights. Equipment does not supply the missing overhead training.
+Two open-water divers have backup lights and a clear view of the first section of a submerged cave. Neither has overhead training.
 
-Which fact most directly challenges the proposal?
+Which fact is decisive when assessing their proposed entry?
 
 ## Choices
 
-A. Both divers own new lights.
-B. The water is clear today.
-C. Neither diver has the training for the overhead task.
-D. The entrance is easy to photograph.
+A. Their lights were recently purchased.
+B. The entrance is easy to see.
+C. Their preparation does not establish the competence required for the overhead dive.
+D. Their cameras can record the route.
 
 ## Answer and explanation
 
-**C.** Equipment ownership and apparent ease do not establish competence. Light age, visibility and photographs do not answer the training gap.
+**C.** The equipment and view do not supply the missing training. Overhead readiness must be assessed for the actual dive, rather than inferred from open-water experience.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

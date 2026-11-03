@@ -18,39 +18,35 @@ def normalized_rate(volume_l, pressure_drop_bar, minutes, absolute_bar):
 
 
 class ArithmeticChecks(unittest.TestCase):
-    def test_supplied_example_exact(self):
-        large, small = Fraction(24 * 210), Fraction(22 * 210)
-        self.assertEqual((large, small), (5040, 4620))
-        demand = large / 3 + small / 3
-        self.assertEqual(demand, 3220)
-        self.assertEqual(demand - small * 2 / 3, 140)
-        drop = (small - demand) / 22
-        self.assertEqual(drop, Fraction(700, 11))
-        self.assertEqual(210 - drop, Fraction(1610, 11))
+    def test_classroom_quantities_exact(self):
+        large, small = Fraction(24 * 200), Fraction(18 * 200)
+        self.assertEqual((large, small, large - small), (4800, 3600, 1200))
+        supply, demand = Fraction(2600), Fraction(2750)
+        self.assertEqual(demand - supply, 150)
+        self.assertEqual(supply / demand, Fraction(52, 55))
+        self.assertEqual(Fraction(240, 3), 80)
+        self.assertEqual(Fraction(240) - Fraction(240, 3), 160)
 
     def test_separate_decimal_recomputation(self):
-        # Remaining-pressure path, expressed independently of pressure-drop path.
+        # Independent expressions for deficit, allocation and a repeating ratio.
         with localcontext() as ctx:
             ctx.prec = 40
-            demand = Decimal('24') * Decimal('210') / 3 + Decimal('22') * Decimal('210') / 3
-            remaining = demand / Decimal('22')
-            exact = Fraction(210) - Fraction(1400, 22)
-            independent = Decimal(exact.numerator) / Decimal(exact.denominator)
-            self.assertEqual(remaining, independent)
-            self.assertEqual(remaining.quantize(Decimal('.1')), Decimal('146.4'))
-            self.assertEqual(Decimal(700) / 11, Decimal(1400) / 22)
-            self.assertNotEqual(Decimal(700) / 11, Decimal('63.3'))
-            self.assertEqual(Decimal(210) - Decimal('63.3'), Decimal('146.7'))
+            self.assertEqual(Decimal('2750') - Decimal('2600'), Decimal('150'))
+            self.assertEqual(Decimal('240') * Decimal(2) / 3, Decimal('160'))
+            ratio = Decimal('2600') / Decimal('2750')
+            exact = Fraction(52, 55)
+            self.assertEqual(ratio, Decimal(exact.numerator) / Decimal(exact.denominator))
+            self.assertEqual(ratio.quantize(Decimal('.00001')), Decimal('.94545'))
 
     def test_normalized_rate(self):
-        self.assertEqual(normalized_rate(24, 40, 20, 2), 24)
+        self.assertEqual(normalized_rate(18, 50, 15, 3), 20)
         # Same pressure loss in half the water volume consumes half the gas.
-        self.assertEqual(normalized_rate(12, 40, 20, 2), 12)
+        self.assertEqual(normalized_rate(9, 50, 15, 3), 10)
         self.assertEqual(normalized_rate(24, 0, 20, 2), 0)
         with localcontext() as ctx:
             ctx.prec = 30
-            independently = (Decimal('24') * Decimal('40') / Decimal('20')) / Decimal('2')
-            self.assertEqual(independently, Decimal('24'))
+            independently = (Decimal('18') * Decimal('50') / Decimal('15')) / Decimal('3')
+            self.assertEqual(independently, Decimal('20'))
 
     def test_invalid_inputs(self):
         for values in [(0, 40, 20, 2), (24, -1, 20, 2), (24, 40, 0, 2),
@@ -67,3 +63,4 @@ class ArithmeticChecks(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

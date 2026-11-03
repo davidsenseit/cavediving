@@ -4,7 +4,7 @@ title: A connection and a route decision are different practice
 type: question
 topic: navigation
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - NAV-003
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-Two lines are visible across clear water. Remembering the view does not replace an identified continuous route when visibility changes.
+A team intends to change to a branch line that starts across a short clear-water space.
 
-Which pair of questions best frames a route change?
+Which two issues must it address separately?
 
 ## Choices
 
-A. Is the route continuous, and which way is our verified exit?
-B. Is the map attractive, and is the water warm?
-C. Is there any line nearby, and are others using it?
-D. Can we remember the view, and is the spool new?
+A. Physical line continuity and identification of the team's exit direction.
+B. Water temperature and the appearance of the map.
+C. Whether another team went that way and whether the line is visible.
+D. The age of the spool and the brightness of the entrance.
 
 ## Answer and explanation
 
-**A.** Continuity and correct exit identity solve different problems and both matter. The alternatives substitute appearances or other divers’ choices.
+**A.** A connection supplies continuity; correct route identification supplies direction. Neither substitutes for the other or establishes competence to perform the maneuver.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

@@ -1,39 +1,43 @@
 ---
 id: REVIEW-CALC-001
-title: Separate arithmetic review
+title: Educational arithmetic and model boundaries
 status: draft
-version: 0.1.0
+version: 0.2.0
 ---
 
-# Separate arithmetic review
+# Educational arithmetic and model boundaries
 
-Educational ideal-gas calculations only. Not an operational planning utility, validated turn-pressure prescription or independently approved gas strategy. An AI author checked the arithmetic with two numerical representations; no independent human has approved the assumptions.
+These independently constructed classroom exercises use ideal gases, comparable temperature and a 1 bar reference. They omit real-gas corrections and do not establish usable cylinder capacity, an emergency reserve or permission to dive. Exact rational arithmetic and a separately expressed decimal calculation check the numbers, not the safety of a model.
 
-## Supplied gas-matching example
+## Exercise 1: quantity versus pressure
 
-The attachment describes two 12 L cylinders and two 11 L cylinders, each at 210 bar. Here water volumes sum to 24 L and 22 L. The simplified calculation uses a 1 bar surface reference, comparable temperature and ideal gas behavior. It ignores real-gas corrections and inaccessible residual gas.
+At the same nominal 200 bar fill, 24 L water volume represents 4,800 reference litres while 18 L represents 3,600. The 1,200 L difference illustrates why equal gauge readings cannot establish equal supplies. Valve access, residual gas and the assumed failure must be assessed separately.
 
-| Quantity | Independently recomputed result |
-| --- | --- |
-| Larger nominal gas quantity | 24 × 210 = 5040 surface-equivalent L |
-| Smaller nominal gas quantity | 22 × 210 = 4620 surface-equivalent L |
-| Larger nominal third | 1680 L |
-| Smaller nominal third | 1540 L |
-| Fixed assumed combined exit demand | 1680 + 1540 = 3220 L |
-| Smaller supply after its nominal third | 3080 L |
-| Shortfall under this demand assumption | 3220 − 3080 = 140 L |
-| Smaller supply less fixed assumed demand | 4620 − 3220 = 1400 L |
-| Pressure drop for 1400 L in 22 L | 63.636363… bar |
-| Remaining pressure corresponding to 3220 L in 22 L | 146.363636… bar |
+## Exercise 2: breathing volume rate
 
-The attachment also states 700/11 = 63.3 bar, which is incorrect: it is 63.636363… bar. Its earlier 63.6 is a reasonable one-decimal approximation. Subtracting 63.3 from 210 gives 146.7, not 146.4. The displayed 146.4 is consistent with rounding the unrounded 146.363636… result, despite the conflicting intermediate value. Do not propagate the incorrect intermediate arithmetic.
+For 18 L water volume, 50 bar consumed over 15 minutes at a constant 3 bar absolute:
 
-## Model boundary, separate from arithmetic
+- Reference quantity consumed: 18 × 50 = 900 L.
+- Surface-normalized rate: 900 / (15 × 3) = 20 L/min.
+- Without depth normalization, the result would be 60 L/min.
+- Halving cylinder water volume while keeping the other inputs fixed halves the inferred rate to 10 L/min.
 
-3220 L is a stipulated exit demand, not a measurement. Changing the team's turn time changes consumption and normally changes the return demand too. Individual thirds cannot be assumed to occur at the same location or time. One cannot derive a universal team-matching rule from the fixed numbers alone.
+Only the constant-depth exercise is evaluated here. A variable profile requires pressure-time normalization, and an observed average rate cannot be assumed to represent emergency breathing demand.
 
-A real assessment needs each diver’s consumption assumptions, accessible cylinder gas after the modeled failure, depths and travel times for the return, delays, stress/exertion allowance, gas-sharing feasibility, decompression, residual pressure requirements, flow and uncertainty. Neither total litres nor a turn pressure establishes those conditions. The reserve and route model requires independent expert review.
+## Exercise 3: a stipulated failure model
 
-## Independent numerical checks
+The model supplies 2,600 accessible reference litres and demands 2,750. The shortage is 150 L. Supply divided by demand is 52/55, approximately 0.94545; this ratio is not a safety factor or a reserve recommendation.
 
-`python -m unittest discover -s tests -v` compares exact Fraction results with a separately expressed Decimal calculation and fixed expected fixtures. Additional cases cover cylinder-size effects, zero consumption, invalid/nonfinite inputs, units and partial pressure. Inputs use an explicit 1 bar reference. Tests check educational arithmetic, not fitness for a dive. There is no distance-range estimator, decompression engine, automatic reserve rule or operational planner in this change.
+Both quantities are stipulated, not field measurements. The exercise does not derive a turn pressure. A different turn time normally changes exit demand, so holding demand fixed while changing the turn cannot establish a general gas-matching method.
+
+## Exercise 4: fractional allocation
+
+For an educational 240 bar start with matched cylinder volumes, one third corresponds to 80 bar and the remaining two thirds to 160 bar. These quantities illustrate an allocation only. They do not assess different breathing rates, unavailable gas, delays, current, exertion or decompression. More restrictive limits can require turning earlier.
+
+## Exercise 5: oxygen partial pressure
+
+With a fraction of 0.32 and 4 bar absolute ambient pressure, oxygen partial pressure is 1.28 bar. Gas fraction is not entered as 32, and storage pressure is not ambient pressure. This multiplication does not select a breathing gas or exposure limit.
+
+## Validation boundary
+
+Run `python -m unittest discover -s tests -v`. Checks include exact/decimal recomputation, cylinder-size effects, invalid inputs and partial pressure. Independent expert review remains pending. There is no operational planner, range predictor, reserve optimizer or decompression engine in this change.

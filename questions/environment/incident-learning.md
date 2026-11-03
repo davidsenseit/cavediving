@@ -4,7 +4,7 @@ title: Separate observations from explanations practice
 type: question
 topic: environment
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - ENV-001
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-An anonymous post says a diver was rescued after a gas problem. Without a verified report, use it to frame questions, not to publish a confident causal history.
+An anonymous post reports a rescue following a gas problem. It gives no measured quantities, confirmed timeline or investigation findings.
 
-What is the defensible editorial response?
+What is a defensible way to use the account?
 
 ## Choices
 
-A. Label uncertainty and seek primary evidence.
-B. Invent a likely gas quantity.
-C. Treat the post as a confirmed investigation.
-D. Calculate a fatality rate from the story.
+A. Identify unanswered questions and seek verifiable evidence.
+B. Estimate the missing gas quantities and report them as facts.
+C. Publish a confirmed cause based on the post.
+D. Use the single story to calculate a fatality rate.
 
 ## Answer and explanation
 
-**A.** Unknown facts remain unknown. Guessed quantities, causal claims and rates create false precision. This is an editorial reasoning exercise, not a retelling of a real accident.
+**A.** The account may suggest questions, but missing facts and causation remain unresolved. A rate also requires a defined population and exposure denominator.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

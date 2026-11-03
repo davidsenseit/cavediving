@@ -4,7 +4,7 @@ title: A plan needs limits and responses practice
 type: question
 topic: planning
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - PLN-001
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-A team wants to reach a chamber but cannot agree what a turn signal means. Resolve that disagreement before entering, rather than expecting underwater negotiation to fix it.
+A team is close to its intended destination when one diver gives the agreed termination signal. No equipment fault is visible, and gas remains above the planned turn threshold.
 
-Which briefing gap must be resolved before entry?
+What should the team do?
 
 ## Choices
 
-A. Different notebook brands.
-B. Different camera settings.
-C. Different post-dive meals.
-D. Different interpretations of the turn signal.
+A. Continue until the diver explains the reason.
+B. Let the team leader decide whether to accept the signal.
+C. Take a vote before abandoning the objective.
+D. End penetration and carry out the trained exit response.
 
 ## Answer and explanation
 
-**D.** A shared meaning for a safety decision matters. The other preferences do not define that decision. This scenario does not prescribe a universal signal set.
+**D.** The decision does not need approval from the other divers. Gas and destination limits never remove a participant's authority to end the dive. Reasons can be discussed after a safe exit.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

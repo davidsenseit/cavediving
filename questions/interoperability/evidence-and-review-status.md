@@ -4,7 +4,7 @@ title: Portable access needs honest evidence practice
 type: question
 topic: interoperability
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - AI-001
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-An assistant can read a catalog but not its linked knowledge file. It should describe that access boundary and ask for the needed content instead of presenting an imagined answer as repository-backed.
+An automated check confirms that local Markdown links resolve. No teaching sessions have been run with other AI providers.
 
-Which statement is justified after checking local Markdown links?
+Which conclusion is supported?
 
 ## Choices
 
-A. All AI providers have passed teaching tests.
+A. Every provider has passed a teaching evaluation.
 B. Expert review is complete.
-C. Local links were checked; cross-provider behavior is still untested.
-D. All facts are operationally validated.
+C. Local links passed the check; provider behavior remains untested.
+D. All safety claims are operationally validated.
 
 ## Answer and explanation
 
-**C.** A structural test has a limited scope. It establishes neither remote model behavior, technical accuracy nor practical suitability.
+**C.** Link validation addresses structure. It does not demonstrate teaching behavior, technical accuracy or suitability for diving.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

@@ -4,7 +4,7 @@ title: Redundancy must survive the same failure practice
 type: question
 topic: equipment
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - EQP-002
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-Two lights share one battery pack. This is two light heads, but not two independent power supplies.
+A diver has three light heads. Two share a battery; the third has its own power source. All three illuminate during the equipment check.
 
-Which review best tests the redundancy claim?
+Does this establish the lighting provision described in EQP-002?
 
 ## Choices
 
-A. Count the light heads only.
-B. Identify what one failure can disable.
-C. Compare purchase prices.
-D. Assume a familiar brand cannot fail.
+A. Yes, because all three heads work now.
+B. No; the shared supply leaves only two independent power sources, and duration also needs checking.
+C. Yes, if the shared battery is larger.
+D. Yes, if another diver carries an additional light.
 
 ## Answer and explanation
 
-**B.** Failure analysis reveals dependencies. Counts, cost and reputation cannot establish independent operation. This conceptual example does not prescribe an approved cave lighting configuration.
+**B.** Three working heads do not provide a primary and two separately powered backups in this arrangement. Each diver's independent lighting and usable duration must be assessed.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

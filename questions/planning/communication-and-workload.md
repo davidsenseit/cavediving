@@ -4,7 +4,7 @@ title: A message needs shared meaning practice
 type: question
 topic: planning
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - PLN-002
 ---
@@ -13,21 +13,22 @@ knowledge_ids:
 
 ## Question
 
-A photographer repeatedly misses a teammate’s communication. Treat this as a workload and communication problem, not proof that the message was understood.
+A diver sends an agreed signal to a teammate who is concentrating on a camera. The sender is unsure whether it was noticed.
 
-What is the strongest evidence of shared understanding?
+What best supports shared understanding?
 
 ## Choices
 
-A. The sender feels confident.
+A. Confidence that the gesture was clear.
 B. The agreed confirmation is received and understood.
-C. The team has expensive lights.
-D. The signal was sent several times without response.
+C. The teammate's light is expensive.
+D. The signal was repeated without any response.
 
 ## Answer and explanation
 
-**B.** A shared confirmation provides evidence of receipt. Confidence, price and repetition alone do not establish comprehension. Exact confirmation procedures belong to trained team practice.
+**B.** A recognizable confirmation provides evidence of receipt. Neither repeated transmission nor the sender's confidence establishes understanding.
 
 ## Review note
 
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+

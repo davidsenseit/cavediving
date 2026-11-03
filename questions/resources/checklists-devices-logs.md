@@ -4,7 +4,7 @@ title: A packing list is not a functional check practice
 type: question
 topic: resources
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - RES-001
 ---
@@ -13,7 +13,7 @@ knowledge_ids:
 
 ## Question
 
-A recreational-mode manual corresponding to firmware V91 and release notes for another version are available. Neither establishes the device’s currently installed firmware or supplies the missing technical-mode guidance.
+A diver wants to interpret technical-mode settings. The available documentation covers recreational mode and a different firmware version; the installed version has not been recorded.
 
 What should an assistant do before giving mode-specific configuration advice?
 
@@ -31,3 +31,4 @@ D. Infer configuration from the computer’s brand.
 ## Review note
 
 Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
+
