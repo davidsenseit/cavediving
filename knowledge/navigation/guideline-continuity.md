@@ -4,7 +4,10 @@ title: Continuous guideline to a verified exit
 type: knowledge
 topic: navigation
 status: draft
-version: 0.1.0
+version: 0.2.0
+source_ids:
+  - DAN-LOWVIS
+  - GIBB-NAV
 ---
 
 # Continuous guideline to a verified exit
@@ -28,3 +31,8 @@ This is a concept overview, not instructions for placing reels, negotiating a ju
 ## Check understanding
 
 Explain why merely being able to see a line is not sufficient to establish an exit route.
+
+
+## Evidence and review
+
+See the [evidence register](../../reviews/2026-11-03-evidence.md). Author source checking does not establish independent expert approval; status remains draft.

@@ -2,7 +2,7 @@
 
 An AI-agnostic, English-language learning resource for cave diving. Use it with an AI assistant that can read this repository: ChatGPT, Claude, Codex, local agents, or other compatible tools.
 
-**Status: early scaffold.** The initial example content is a draft, not independently reviewed. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
+**Status: first curriculum draft.** There are 18 knowledge entries and 18 original questions, including the original scaffold. All learning content remains draft and has not received independent expert review. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
 
 ## Start here
 
@@ -23,6 +23,12 @@ An AI-agnostic, English-language learning resource for cave diving. Use it with 
 
 All published learning content is in English. AI assistants may converse in the learner's preferred language.
 
+## Validation and review
+
+Read the [coverage and gaps](reviews/2026-11-03-coverage.md), [evidence register](reviews/2026-11-03-evidence.md), [separate calculation review](reviews/2026-11-03-calculations.md) and [portability test protocol](reviews/interoperability-protocol.md). Follow the [core pathway](learning/core-pathway.md) or select a topic in the catalog.
+
+Run `python -m unittest discover -s tests -v` with Python 3.10 or newer; there are no third-party runtime dependencies. These checks establish structure and educational arithmetic only, not factual accuracy, practical competence or operational validation. Calculation examples use an explicit 1 bar reference and ideal-gas assumptions.
+
 ## Roadmap
 
 Expand independently authored, technically reviewed modules covering gas management, navigation, equipment, emergencies, and dive planning. Add validated deterministic calculation tools only after test cases and reviewer sign-off. Separate educational scenarios from real dive decisions.
@@ -30,3 +36,4 @@ Expand independently authored, technically reviewed modules covering gas managem
 ## License note
 
 The repository includes an MIT license. That license covers material the contributors are entitled to license; it does not grant rights in third-party manuals, exams, figures or other protected works. Do not commit such materials without permission.
+
