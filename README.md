@@ -1,0 +1,32 @@
+# Cave Diving Knowledge Base
+
+An AI-agnostic, English-language learning resource for cave diving. Use it with an AI assistant that can read this repository: ChatGPT, Claude, Codex, local agents, or other compatible tools.
+
+**Status: early scaffold.** The initial example content is a draft, not independently reviewed. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
+
+## Start here
+
+1. Give your AI assistant access to the repository files (a URL alone does not guarantee access).
+2. Ask it to read [AGENTS.md](AGENTS.md) and [catalog.md](catalog.md).
+3. Try: "Quiz me on guideline continuity, one question at a time. Explain after I answer."
+4. For a deeper explanation, ask: "Teach me knowledge item NAV-001, then challenge my understanding."
+
+## Structure
+
+- `AGENTS.md` — vendor-neutral behavior contract for assistants.
+- `catalog.md` — index of topics, lessons and quizzes.
+- `knowledge/` — short, standalone facts and concepts with stable IDs.
+- `questions/` — authored quiz questions linked to knowledge IDs.
+- `learning/` — guided topic pathways; users may also pick a topic freely.
+- `schema/` — metadata conventions for Markdown front matter.
+- `governance/` — review process, safety and original-content policy.
+
+All published learning content is in English. AI assistants may converse in the learner's preferred language.
+
+## Roadmap
+
+Expand independently authored, technically reviewed modules covering gas management, navigation, equipment, emergencies, and dive planning. Add validated deterministic calculation tools only after test cases and reviewer sign-off. Separate educational scenarios from real dive decisions.
+
+## License note
+
+The repository includes an MIT license. That license covers material the contributors are entitled to license; it does not grant rights in third-party manuals, exams, figures or other protected works. Do not commit such materials without permission.
