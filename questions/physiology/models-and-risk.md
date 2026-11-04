@@ -1,15 +1,15 @@
 ---
 id: DEC-Q001
-title: A decompression model estimates risk practice
+title: Distinguish decompression guidance from individual safety
 type: question
 topic: physiology
 status: draft
-version: 0.2.0
+version: 0.3.0
 knowledge_ids:
   - DEC-001
 ---
 
-# A decompression model estimates risk practice
+# Distinguish decompression guidance from individual safety
 
 ## Question
 
@@ -31,4 +31,5 @@ D. Medical assessment is unnecessary.
 ## Review note
 
 Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+
 

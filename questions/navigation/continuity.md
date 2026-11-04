@@ -4,7 +4,7 @@ title: Guideline continuity check
 type: question
 topic: navigation
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - NAV-001
 ---
@@ -13,18 +13,18 @@ knowledge_ids:
 
 ## Question
 
-A team can see a permanent guideline across a short open-water gap from its temporary line. Which statement best reflects the principle of a continuous, verified exit route?
+A team's temporary line ends inside a submerged cave, with overhead rock preventing a direct ascent. A permanent guideline is visible across a short unlined space. Which statement best reflects the principle of a continuous, verified exit route?
 
 ## Choices
 
-A. Seeing both lines is sufficient if visibility is clear.
+A. The short distance permits a visual crossing if both lines remain visible.
 B. The team needs a continuous, identified guideline route to its verified exit.
-C. A nearby directional arrow automatically establishes the safe exit.
-D. A digital cave map removes the need to maintain a continuous line.
+C. Confirming that an arrow points toward the entrance removes the need to connect the lines.
+D. Recording a compass bearing across the space supplies the missing continuous reference.
 
 ## Answer and explanation
 
-**B.** Visual proximity does not establish an uninterrupted, positively identified guideline route. The other options rely on visibility, marker interpretation, or a map rather than continuity.
+**B.** Visual proximity does not establish an uninterrupted, positively identified guideline route. A depends on visibility remaining usable; C confuses directional information with physical continuity; D supplies a heading rather than a line that can be followed by touch. The unlined space is inside the overhead environment, not open water with a direct ascent to the surface.
 
 ## Common misconceptions
 
@@ -33,3 +33,4 @@ Seeing a line and knowing where it leads are different things. Permanent markers
 ## Review note
 
 Draft educational question; not a field procedure or endorsement of making a jump without training.
+
