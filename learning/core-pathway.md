@@ -4,7 +4,7 @@ title: Decision-focused foundation pathway
 type: learning_path
 topic: foundation
 status: draft
-version: 0.1.0
+version: 0.1.1
 knowledge_ids:
   - NAV-001
   - FND-001
@@ -28,6 +28,8 @@ knowledge_ids:
 
 # Decision-focused foundation pathway
 
+Before assessment, introduce unfamiliar terms using the [glossary](../GLOSSARY.md) and the linked knowledge entries. Keep canonical English terms in all teaching languages; if teaching a term reveals a pending answer, choose another question afterward.
+
 Use the catalog for direct topic selection or work through these phases. All content is draft; this pathway is not a qualification syllabus.
 
 1. Establish competence boundaries and environmental uncertainties: FND-001–002.
@@ -42,3 +44,4 @@ Use the catalog for direct topic selection or work through these phases. All con
 For each concept, read its file and linked authored question from the catalog. Ask one question at a time, hiding the answer. After a response explain the correct choice and the limits of the scenario. If the learner misses a concept, offer a hint or label a new scenario **AI-generated practice**; check it against the accessible knowledge before presenting it. Revisit understanding without imposing a pass score.
 
 Finish with a reflective debrief: What assumption changed your answer? What would you need to verify with an instructor? Do not infer real-dive readiness from completion.
+

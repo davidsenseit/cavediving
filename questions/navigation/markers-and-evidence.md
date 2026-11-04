@@ -4,7 +4,7 @@ title: Markers need context and ownership practice
 type: question
 topic: navigation
 status: draft
-version: 0.2.0
+version: 0.2.1
 knowledge_ids:
   - NAV-002
 ---
@@ -13,9 +13,9 @@ knowledge_ids:
 
 ## Question
 
-At an intersection, an unfamiliar permanent arrow points in a direction different from the exit the team has positively identified.
+At an intersection, an unfamiliar permanent directional arrow points in a direction different from the exit the team has positively identified.
 
-What does that arrow establish on its own?
+What does that directional arrow establish on its own?
 
 ## Choices
 
@@ -31,4 +31,5 @@ D. That personal markers can be removed.
 ## Review note
 
 Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
+
 

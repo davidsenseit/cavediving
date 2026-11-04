@@ -2,10 +2,12 @@
 id: CATALOG-001
 title: Knowledge catalog
 status: draft
-version: 0.3.1
+version: 0.3.2
 ---
 
 # Knowledge catalog
+
+Use the [shared glossary](GLOSSARY.md) before introducing or assessing navigation terminology.
 
 First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions await independent expert review. Start with [the learning pathway](learning/core-pathway.md).
 
@@ -66,4 +68,5 @@ These 24 additional questions revisit existing concepts in new situations. There
 See the [scenario review record](reviews/2026-11-04-quiz-expansion.md) for scope and validation limits.
 
 See the [clarity and gas review](reviews/2026-11-04-clarity-and-gas.md) for the revised line-continuity and turnaround-time questions, clearer gas units, the unequal-volume allocation example and decompression-model wording. All entries remain draft.
+
 

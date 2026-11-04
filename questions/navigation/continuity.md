@@ -4,7 +4,7 @@ title: Guideline continuity check
 type: question
 topic: navigation
 status: draft
-version: 0.2.0
+version: 0.2.1
 knowledge_ids:
   - NAV-001
 ---
@@ -19,7 +19,7 @@ A team's temporary line ends inside a submerged cave, with overhead rock prevent
 
 A. The short distance permits a visual crossing if both lines remain visible.
 B. The team needs a continuous, identified guideline route to its verified exit.
-C. Confirming that an arrow points toward the entrance removes the need to connect the lines.
+C. Confirming that a directional arrow points toward the entrance removes the need to connect the lines.
 D. Recording a compass bearing across the space supplies the missing continuous reference.
 
 ## Answer and explanation
@@ -33,4 +33,5 @@ Seeing a line and knowing where it leads are different things. Permanent markers
 ## Review note
 
 Draft educational question; not a field procedure or endorsement of making a jump without training.
+
 
