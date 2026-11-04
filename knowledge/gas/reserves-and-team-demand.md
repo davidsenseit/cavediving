@@ -4,7 +4,7 @@ title: Compare available gas with the actual demand model
 type: knowledge
 topic: gas
 status: draft
-version: 0.3.0
+version: 0.4.0
 ---
 
 # Compare available gas with the actual demand model
@@ -64,4 +64,13 @@ See the [separate arithmetic review](../../reviews/2026-11-04-clarity-and-gas.md
 
 Why does A need a higher pressure threshold than B in the allocation example? Identify two real-world inputs that its fixed demand bounds do not establish.
 
+## Learning objective
+Separate inventory allocation, expected consumption and gas accessible after failure.
 
+## Follow the planning chain
+First establish cylinder volumes and actual starting pressures. Next express consumption in comparable units. Describe the return route and the failure being considered, including who supplies whom. Determine what gas remains accessible in that configuration. Compare that supply with the combined exit demand and applicable restrictions.
+
+A reduced entry allowance does not itself prove that an assumed exit demand is realistic. Gas remaining somewhere in the system is not necessarily gas the donor can deliver. A delayed return can change time, effort and depth exposure together.
+
+## Contrast one changed assumption
+Keep cylinder inventory unchanged but increase the stipulated exit delay. Required exit gas increases; physical inventory does not. Keep the delay unchanged but make part of the donor's gas inaccessible. Available supply decreases; the original demand does not disappear. State which side of the comparison changed before recalculating.

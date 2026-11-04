@@ -9,7 +9,7 @@ version: 0.5.0
 
 Use the [shared glossary](GLOSSARY.md) before introducing or assessing navigation terminology.
 
-First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions have status `draft`. Start with [the course](learning/core-pathway.md): eight modules, 21 core questions and 20 optional practice questions. AI-Q001 is a separate project appendix. The tables below index content; follow the course for teaching order.
+First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions have status `draft`. Start with [the course](learning/core-pathway.md): eight modules, 25 core questions and 20 optional practice questions. AI-Q001 is a separate project appendix. The tables below index content; follow the course for teaching order.
 
 | Knowledge ID | Knowledge | Original question | Issue | Status |
 | --- | --- | --- | --- | --- |
@@ -36,7 +36,7 @@ See [coverage and gaps](reviews/2026-11-03-coverage.md), and [calculation review
 
 ## Applied scenario questions
 
-These 24 additional questions revisit existing concepts in new situations. There are now 42 questions linked to 18 knowledge entries. All remain draft. Use the [applied scenario pathway](learning/applied-scenarios.md) for topic groups.
+These 24 additional questions revisit existing concepts in new situations. There are now 46 questions linked to 22 knowledge entries. All remain draft. Use the [applied scenario pathway](learning/applied-scenarios.md) for topic groups.
 
 | Question | Focus | Knowledge IDs | Status |
 | --- | --- | --- | --- |
@@ -70,3 +70,16 @@ See the [scenario review record](reviews/2026-11-04-quiz-expansion.md) for scope
 See the [clarity and gas review](reviews/2026-11-04-clarity-and-gas.md) for the revised line-continuity and turnaround-time questions, clearer gas units, the unequal-volume allocation example and decompression-model wording. All entries remain draft.
 
 
+
+
+## Expanded lessons
+
+| Knowledge ID | Knowledge | Question | Issue | Status |
+| --- | --- | --- | --- | --- |
+| NAV-004 | [Line hazards and followability](knowledge/navigation/line-hazards.md) | [NAV-Q009](questions/navigation/line-hazards.md) | #4 | Draft |
+
+| PLN-003 | [Readiness checks and emergency preparedness](knowledge/planning/readiness-and-preparedness.md) | [PLN-Q006](questions/planning/readiness-and-preparedness.md) | #5 | Draft |
+
+| EMR-002 | [Distinguishing emergency problems](knowledge/emergencies/distinguish-events.md) | [EMR-Q004](questions/emergencies/distinguish-events.md) | #7 | Draft |
+
+| PHY-001 | [Breathing effort and workload](knowledge/physiology/breathing-and-workload.md) | [PHY-Q001](questions/physiology/breathing-and-workload.md) | #7 | Draft |

@@ -4,8 +4,12 @@ title: Cave diving learning pathway
 type: learning_path
 topic: mixed
 status: draft
-version: 0.3.0
+version: 0.4.0
 knowledge_ids:
+  - PHY-001
+  - EMR-002
+  - PLN-003
+  - NAV-004
   - EMR-001
   - ENV-001
   - ENV-002
@@ -27,7 +31,7 @@ knowledge_ids:
 
 # Cave diving learning pathway
 
-Start here for the course. Eight modules combine lessons, 21 core questions and 20 optional practice questions. The revised questions belong to this sequence alongside the other authored questions. All learning material remains draft; this is a concept-level learning pathway, not a complete qualification syllabus.
+Start here for the course. Eight modules combine lessons, 25 core questions and 20 optional practice questions. The revised questions belong to this sequence alongside the other authored questions. All learning material remains draft; this is a concept-level learning pathway, not a complete qualification syllabus.
 
 The course order is recorded in [curriculum-manifest.json](../curriculum-manifest.json). The catalog indexes content; this pathway determines the default teaching sequence.
 
@@ -62,9 +66,9 @@ Optional practice: [EQP-Q003](../questions/equipment/battery-failure-analysis.md
 
 ## Module 3: Guidelines and route decisions
 
-Lessons: [NAV-001](../knowledge/navigation/guideline-continuity.md), [NAV-002](../knowledge/navigation/markers-and-evidence.md), [NAV-003](../knowledge/navigation/connections-and-decisions.md), [ENV-002](../knowledge/environment/survey-and-conservation.md), [FND-002](../knowledge/foundations/environment-change.md).
+Lessons: [NAV-004](../knowledge/navigation/line-hazards.md), [NAV-001](../knowledge/navigation/guideline-continuity.md), [NAV-002](../knowledge/navigation/markers-and-evidence.md), [NAV-003](../knowledge/navigation/connections-and-decisions.md), [ENV-002](../knowledge/environment/survey-and-conservation.md), [FND-002](../knowledge/foundations/environment-change.md).
 
-Core sequence: [NAV-Q001](../questions/navigation/continuity.md) → [NAV-Q002](../questions/navigation/markers-and-evidence.md) → [NAV-Q003](../questions/navigation/connections-and-decisions.md).
+Core sequence: [NAV-Q001](../questions/navigation/continuity.md) → [NAV-Q002](../questions/navigation/markers-and-evidence.md) → [NAV-Q003](../questions/navigation/connections-and-decisions.md). → [NAV-Q009](../questions/navigation/line-hazards.md)
 
 Optional practice: [NAV-Q004](../questions/navigation/parallel-team-lines.md), [NAV-Q005](../questions/navigation/connection-direction.md), [NAV-Q006](../questions/navigation/unfamiliar-cookie.md), [NAV-Q007](../questions/navigation/map-line-disagreement.md), [NAV-Q008](../questions/navigation/nearby-line-end.md).
 
@@ -78,17 +82,17 @@ Optional practice: [GAS-Q005](../questions/gas/available-gas-comparison.md), [GA
 
 ## Module 5: Team plans and communication
 
-Lessons: [PLN-001](../knowledge/planning/limits-and-briefing.md), [PLN-002](../knowledge/planning/communication-and-workload.md), [GAS-002](../knowledge/gas/reserves-and-team-demand.md), [EMR-001](../knowledge/emergencies/stress-and-capacity.md), [EQP-001](../knowledge/equipment/buoyancy-trim-propulsion.md).
+Lessons: [PLN-003](../knowledge/planning/readiness-and-preparedness.md), [PLN-001](../knowledge/planning/limits-and-briefing.md), [PLN-002](../knowledge/planning/communication-and-workload.md), [GAS-002](../knowledge/gas/reserves-and-team-demand.md), [EMR-001](../knowledge/emergencies/stress-and-capacity.md), [EQP-001](../knowledge/equipment/buoyancy-trim-propulsion.md).
 
-Core sequence: [PLN-Q001](../questions/planning/limits-and-briefing.md) → [PLN-Q002](../questions/planning/communication-and-workload.md) → [PLN-Q003](../questions/planning/first-limit.md).
+Core sequence: [PLN-Q001](../questions/planning/limits-and-briefing.md) → [PLN-Q002](../questions/planning/communication-and-workload.md) → [PLN-Q003](../questions/planning/first-limit.md). → [PLN-Q006](../questions/planning/readiness-and-preparedness.md)
 
 Optional practice: [PLN-Q004](../questions/planning/briefing-signal-disagreement.md), [PLN-Q005](../questions/planning/task-priority.md).
 
 ## Module 6: Physiology and emergency capacity
 
-Lessons: [DEC-001](../knowledge/physiology/models-and-risk.md), [EMR-001](../knowledge/emergencies/stress-and-capacity.md), [GAS-002](../knowledge/gas/reserves-and-team-demand.md), [FND-001](../knowledge/foundations/competence-boundaries.md).
+Lessons: [PHY-001](../knowledge/physiology/breathing-and-workload.md), [EMR-002](../knowledge/emergencies/distinguish-events.md), [DEC-001](../knowledge/physiology/models-and-risk.md), [EMR-001](../knowledge/emergencies/stress-and-capacity.md), [GAS-002](../knowledge/gas/reserves-and-team-demand.md), [FND-001](../knowledge/foundations/competence-boundaries.md).
 
-Core sequence: [DEC-Q001](../questions/physiology/models-and-risk.md) → [EMR-Q001](../questions/emergencies/stress-and-capacity.md).
+Core sequence: [DEC-Q001](../questions/physiology/models-and-risk.md) → [EMR-Q001](../questions/emergencies/stress-and-capacity.md). → [EMR-Q004](../questions/emergencies/distinguish-events.md) → [PHY-Q001](../questions/physiology/breathing-and-workload.md)
 
 Optional practice: [EMR-Q002](../questions/emergencies/compound-demand.md), [EMR-Q003](../questions/emergencies/unpracticed-configuration.md).
 
@@ -113,3 +117,10 @@ Optional practice: [RES-Q002](../questions/resources/log-evidence-limits.md).
 Revisit uncertain concepts using a materially different checked example. Ask which assumptions changed the learner's reasoning and what needs practical work with an instructor. Record question wording concerns separately from the learner's understanding.
 
 The [project appendix](../questions/interoperability/evidence-and-review-status.md) concerns AI-provider evaluation and is available for contributors separately from the diving course.
+
+## Integrated classroom review
+Use a fictional, non-site-specific case after Module 8. Give the learner a team description, conceptual route, stated gas assumptions, equipment dependencies and surface-access constraints. Ask them to identify missing information before making a decision.
+
+Change one condition at a time: a light fails; a return takes longer; a teammate misses a signal; or an apparent line connection is not followable. Ask which assumption changed, which lesson applies and what requires practical training. Do not invent operational gas thresholds or local procedures.
+
+Keep recognition, explanation, numerical reasoning and demonstrated practical skills distinct. Revisit a misunderstood concept with a different example, rather than treating repeated correct letters as mastery.

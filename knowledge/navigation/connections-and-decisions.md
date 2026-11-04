@@ -4,7 +4,7 @@ title: A connection and a route decision are different
 type: knowledge
 topic: navigation
 status: draft
-version: 0.3.0
+version: 0.4.0
 ---
 
 # A connection and a route decision are different
@@ -32,3 +32,14 @@ For a classroom drawing, first identify what is connected, then identify the tea
 ## Check understanding
 
 Contrast the unresolved questions at an unmarked connected T-junction and at a separate branch line.
+
+## Learning objective
+Explain why a correct connection can still leave the wrong return decision.
+
+## Compare entry and return
+A diver makes a jump from the main line to a separate branch. On return, reaching the main line answers where the connection ends. It does not answer which direction on the main line leads to the team's entrance. Establish that reference during entry using the team's agreed navigation procedure.
+
+Natural features and compass observations can help detect discrepancies. They do not replace the continuous guideline or justify taking an unverified exit. Other teams' equipment and unfamiliar markers must remain distinct from the team's own references.
+
+## Reasoning task
+Sketch a main line with two directions and one separate branch connected by a jump. Mark the team's verified return direction. Then remove that direction label: explain what information remains and what has been lost.

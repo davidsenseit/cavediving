@@ -4,7 +4,7 @@ title: Redundancy must survive the same failure
 type: knowledge
 topic: equipment
 status: draft
-version: 0.3.0
+version: 0.5.0
 ---
 
 # Redundancy must survive the same failure
@@ -28,3 +28,26 @@ Then ask how long the remaining equipment can perform its role. A switch-on chec
 ## Check understanding
 
 What different questions are answered by checking independent power and checking usable burn time?
+
+## Learning objective
+Explain a backup's independence, accessibility and endurance as separate requirements.
+
+## Trace the failure
+Draw the power supply, light head and mounting for each light. A battery failure affects every attached head. A mounting problem can make a functioning light unusable. Independent power solves the first problem but does not establish reachability or sufficient duration.
+
+For breathing and buoyancy equipment, trace which components share a gas supply and what remains accessible after a specified failure. Owning two components does not establish that either remains usable. Configuration-specific valve responses belong to supervised training.
+
+## Compare cases
+Three independently powered lights can still be unsuitable if backup duration has not been established. Conversely, a very long burn time does not fix a shared battery dependency. Explain the evidence required for each case rather than ranking equipment by count alone.
+
+## Original dependency schematic
+This drawing shows a fictional shared-power arrangement, not a recommended configuration.
+
+```mermaid
+flowchart TD
+    B["Shared battery"] --> P["Primary light head"]
+    B --> S["Second light head"]
+    I["Independent battery"] --> L["Separate backup light"]
+```
+
+If the shared battery fails, two heads become unavailable. Count what remains usable after that event, then assess duration and access separately.
