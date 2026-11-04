@@ -19,7 +19,7 @@ knowledge_ids:
 
 ## Question
 
-A fictional passage carries water from the entrance farther into the cave. The team plans to return along the same passage. Which change should it consider when estimating the return compared with the inward swim?
+A passage carries water from the entrance farther into the cave. The team plans to return along the same passage. Which change should it consider when estimating the return compared with the inward swim?
 
 ## Choices
 
