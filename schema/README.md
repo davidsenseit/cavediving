@@ -22,3 +22,11 @@ Under each question's metadata use:
 - `## Common misconceptions` (optional)
 
 The AI must withhold the answer section until the learner responds. Keep generated practice questions separate from authored/verified questions.
+
+## Pilot question authoring
+
+The foundation pilot adds Teaching notes (objective, level and prerequisites), followed by the existing Question, Choices and Answer and explanation sections. Follow-up discussion contains a short reasoning prompt; its Tutor guidance states the conceptual evidence to look for. Present these sections according to AGENTS.md.
+
+Use a specific learning objective and enough information for one defensible answer. Alternatives should address the same decision or quantity and represent identifiable misconceptions. Keep their detail comparable. Use neutral titles and different numerical inputs in worked lessons and assessment questions. An applied question should require a distinct reasoning step rather than repeat an earlier question with changed scenery.
+
+Explain each alternative after the response, and make scenario limits specific. Retain stable IDs and draft status when revising unverified material. Course metadata does not establish practical competence.

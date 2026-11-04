@@ -1,31 +1,41 @@
 ---
 id: NAV-Q001
-title: Guideline continuity check
+title: Entrance-route review
 type: question
 topic: navigation
 status: draft
-version: 0.2.1
+version: 0.3.0
 knowledge_ids:
   - NAV-001
 ---
 
-# Guideline continuity check
+# Entrance-route review
+
+## Teaching notes
+
+- Learning objective: Distinguish physical guideline continuity from other navigation information.
+- Level: Concept application
+- Prerequisites: Guideline; primary reel; main line; verified exit; underwater overhead.
 
 ## Question
 
-A team's temporary line ends inside a submerged cave, with overhead rock preventing a direct ascent. A permanent guideline is visible across a short unlined space. Which statement best reflects the principle of a continuous, verified exit route?
+A tabletop drawing shows the team’s entrance guideline ending before the installed main line, inside the underwater overhead. The intended exit is already identified. Which proposed addition addresses the remaining physical-continuity problem?
 
 ## Choices
 
-A. The short distance permits a visual crossing if both lines remain visible.
-B. The team needs a continuous, identified guideline route to its verified exit.
-C. Confirming that a directional arrow points toward the entrance removes the need to connect the lines.
-D. Recording a compass bearing across the space supplies the missing continuous reference.
+A. Record the compass heading between the two guideline ends.
+B. Add an identifiable directional arrow at the entrance guideline end.
+C. Record a distinctive rock feature visible from both guideline ends.
+D. Include a suitable temporary guideline connection between the two lines.
 
 ## Answer and explanation
 
-**B.** Visual proximity does not establish an uninterrupted, positively identified guideline route. A depends on visibility remaining usable; C confuses directional information with physical continuity; D supplies a heading rather than a line that can be followed by touch. The unlined space is inside the overhead environment, not open water with a direct ascent to the surface.
+**D.** A temporary guideline connection addresses the physical break. A heading (A), a directional arrow (B) and a recognizable feature (C) can convey other information, but none bridges the break with a followable guideline. The scenario explicitly identifies the intended exit, so the remaining issue is continuity. This drawing exercise does not establish placement, attachment quality or competence to install the connection.
 
-## Common misconceptions
+## Follow-up discussion
 
-Seeing a line and knowing where it leads are different things. Permanent markers are not a substitute for verifying the team's specific exit.
+What additional question would remain if the drawing showed connected lines but omitted the exit direction at a junction?
+
+### Tutor guidance
+
+Look for identification of the correct return branch. Physical connection alone does not determine the team’s exit direction.

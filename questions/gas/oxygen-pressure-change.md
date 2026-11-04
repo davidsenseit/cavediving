@@ -1,27 +1,41 @@
 ---
 id: GAS-Q008
-title: Apply oxygen fraction at two pressures
+title: Oxygen calculation review
 type: question
 topic: gas
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - GAS-003
 ---
 
-# Apply oxygen fraction at two pressures
+# Oxygen calculation review
+
+## Teaching notes
+
+- Learning objective: Use absolute rather than gauge-relative ambient pressure for oxygen partial pressure.
+- Level: Calculation error analysis
+- Prerequisites: Oxygen fraction; absolute ambient pressure; partial pressure.
 
 ## Question
 
-A classroom exercise keeps oxygen fraction fixed at 0.30 while absolute ambient pressure changes from 3 bar to 4 bar. What are the corresponding oxygen partial pressures? This exercise does not choose an acceptable exposure.
+A classroom exercise uses oxygen fraction 0.30 at ambient pressures of 3 bar absolute and 4 bar absolute. A learner subtracts 1 bar from each pressure and obtains oxygen partial pressures of 0.60 bar and 0.90 bar. Which review is correct?
 
 ## Choices
 
-A. 0.30 bar at both pressures.
-B. 0.90 bar and 1.20 bar.
-C. 0.60 bar and 0.90 bar.
-D. 3.30 bar and 4.30 bar.
+A. Accept both results because the surface pressure must be removed.
+B. Keep oxygen partial pressure at 0.30 bar because the fraction is unchanged.
+C. Multiply by 3 and 4 again to correct the two results to 1.80 and 3.60 bar.
+D. Use the supplied absolute pressures directly, giving 0.90 and 1.20 bar.
 
 ## Answer and explanation
 
-**B.** Partial pressure is fraction × absolute pressure: 0.30 × 3 = 0.90 bar and 0.30 × 4 = 1.20 bar. A confuses fraction with partial pressure; C subtracts surface pressure from already absolute inputs; D adds unlike quantities. Suitability also requires exposure and training checks.
+**D.** Partial pressure equals fraction × absolute ambient pressure: 0.30 × 3 = 0.90 bar and 0.30 × 4 = 1.20 bar. Surface pressure is already included in an absolute pressure; subtracting it is the error. A endorses that error. B confuses fraction with pressure. C compounds the incorrect intermediate results instead of correcting the inputs. Neither result selects an acceptable working exposure.
+
+## Follow-up discussion
+
+Why can oxygen percentage stay constant while oxygen partial pressure changes?
+
+### Tutor guidance
+
+Look for the same fraction of a changing total pressure. Accept an equation or a verbal explanation; assess exposure suitability separately.

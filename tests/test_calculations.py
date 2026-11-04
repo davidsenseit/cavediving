@@ -48,6 +48,18 @@ class ArithmeticChecks(unittest.TestCase):
             independently = (Decimal('18') * Decimal('50') / Decimal('15')) / Decimal('3')
             self.assertEqual(independently, Decimal('20'))
 
+    def test_pilot_rates_and_distinct_worked_example(self):
+        self.assertEqual(normalized_rate(24, 40, 16, 3), 20)
+        self.assertEqual(normalized_rate(12, 40, 16, 3), 10)
+        self.assertEqual(normalized_rate(20, 36, 12, 2), 30)
+        # Recompute the question and lesson by separate gas/time steps.
+        for volume, drop, duration, pressure, expected in [
+                ('24', '40', '16', '3', '20'),
+                ('20', '36', '12', '2', '30')]:
+            used = Decimal(volume) * Decimal(drop)
+            at_depth = used / Decimal(duration)
+            self.assertEqual(at_depth / Decimal(pressure), Decimal(expected))
+
     def test_invalid_inputs(self):
         for values in [(0, 40, 20, 2), (24, -1, 20, 2), (24, 40, 0, 2),
                        (24, 40, 20, 0), (24, 40, 20, -1),

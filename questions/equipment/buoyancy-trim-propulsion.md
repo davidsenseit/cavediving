@@ -1,29 +1,41 @@
 ---
 id: EQP-Q001
-title: Control position before adding tasks practice
+title: Position-control observation
 type: question
 topic: equipment
 status: draft
-version: 0.2.0
+version: 0.3.0
 knowledge_ids:
   - EQP-001
 ---
 
-# Control position before adding tasks practice
+# Position-control observation
+
+## Teaching notes
+
+- Learning objective: Distinguish depth control, trim and propulsion using direct observations.
+- Level: Concept distinction
+- Prerequisites: Buoyancy as vertical balance; trim as orientation; fin wash.
 
 ## Question
 
-During a camera task, a diver's logged depth stays nearly constant, while a teammate observes sediment being disturbed behind the fins.
-
-What does the depth record establish?
+During supervised practice, a diver holds a constant depth while swimming above sediment. A teammate sees the fins moving below the body and sediment rising immediately behind them. Which interpretation best fits both observations?
 
 ## Choices
 
-A. That propulsion had no environmental effect.
-B. That the diver is ready for a tighter passage.
-C. That the diver's body orientation was suitable.
-D. That depth was stable, without proving trim or appropriate propulsion.
+A. The diver has adequate trim; the sediment indicates only that more lift is needed.
+B. The diver has unstable depth control; the unchanged depth record should be disregarded.
+C. The diver has controlled depth, but orientation and fin movement still need assessment.
+D. The diver has controlled propulsion; disturbed sediment indicates only a depth-control problem.
 
 ## Answer and explanation
 
-**D.** A depth trace records vertical position. It does not measure fin clearance or body orientation and cannot demonstrate low-impact movement.
+**C.** Holding depth supports one observation about vertical control. The low fins and sediment plume give separate reasons to examine orientation and movement. A assumes more buoyancy corrects trim and fin wash. B rejects the depth evidence instead of recognizing its limits. D treats depth and propulsion as interchangeable. The observations do not determine a particular equipment adjustment or a universally suitable kick.
+
+## Follow-up discussion
+
+What should a supervisor observe in addition to depth during the next practice attempt?
+
+### Tutor guidance
+
+Accept fin clearance, body orientation, movement of water toward sediment, and whether control is maintained while communicating. A depth trace alone is insufficient.

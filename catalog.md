@@ -2,14 +2,14 @@
 id: CATALOG-001
 title: Knowledge catalog
 status: draft
-version: 0.3.2
+version: 0.4.0
 ---
 
 # Knowledge catalog
 
 Use the [shared glossary](GLOSSARY.md) before introducing or assessing navigation terminology.
 
-First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions have status `draft`. Start with [the learning pathway](learning/core-pathway.md).
+First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions have status `draft`. Start with [the learning pathway](learning/core-pathway.md), or try the [ten-question foundation pilot](learning/pilot-pathway.md).
 
 | Knowledge ID | Knowledge | Original question | Issue | Status |
 | --- | --- | --- | --- | --- |

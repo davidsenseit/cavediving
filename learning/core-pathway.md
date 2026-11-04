@@ -4,7 +4,7 @@ title: Decision-focused foundation pathway
 type: learning_path
 topic: foundation
 status: draft
-version: 0.1.1
+version: 0.2.0
 knowledge_ids:
   - NAV-001
   - FND-001
@@ -27,6 +27,8 @@ knowledge_ids:
 ---
 
 # Decision-focused foundation pathway
+
+For a compact course section with ten revised questions and guided follow-up discussion, use the [foundation pilot](pilot-pathway.md).
 
 Before assessment, introduce unfamiliar terms using the [glossary](../GLOSSARY.md) and the linked knowledge entries. Keep canonical English terms in all teaching languages; if teaching a term reveals a pending answer, choose another question afterward.
 
