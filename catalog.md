@@ -2,7 +2,7 @@
 id: CATALOG-001
 title: Knowledge catalog
 status: draft
-version: 0.3.0
+version: 0.3.1
 ---
 
 # Knowledge catalog
@@ -64,3 +64,6 @@ These 24 additional questions revisit existing concepts in new situations. There
 | [RES-Q002](questions/resources/log-evidence-limits.md) | Interpret a dive log within its limits | RES-001, NAV-001, EQP-001 | Draft |
 
 See the [scenario review record](reviews/2026-11-04-quiz-expansion.md) for scope and validation limits.
+
+See the [clarity and gas review](reviews/2026-11-04-clarity-and-gas.md) for the revised line-continuity and turnaround-time questions, clearer gas units, the unequal-volume allocation example and decompression-model wording. All entries remain draft.
+
