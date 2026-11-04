@@ -8,8 +8,10 @@ An AI-agnostic, English-language learning resource for cave diving. Use it with 
 
 1. Give your AI assistant access to the repository files (a URL alone does not guarantee access).
 2. Ask it to read [AGENTS.md](AGENTS.md) and [catalog.md](catalog.md).
-3. Try: "Quiz me on guideline continuity, one question at a time. Explain after I answer."
-4. For a deeper explanation, ask: "Teach me knowledge item NAV-001, then challenge my understanding."
+3. Start the [course](learning/core-pathway.md): "Start the cave-diving course, one question at a time. Teach the concepts and explain after I answer."
+4. Continue from the last completed question in the current conversation, or choose a topic from the [catalog](catalog.md).
+
+The course has eight modules with 21 core questions and 20 optional practice questions. Ten revised questions are integrated into this order, with focused lessons, detailed feedback and reasoning prompts. The remaining question addresses AI-provider evaluation in a separate project appendix. All 42 authored questions remain available.
 
 ## Terminology
 
@@ -33,7 +35,7 @@ Read the [coverage and gaps](reviews/2026-11-03-coverage.md), [separate calculat
 
 Run `python -m unittest discover -s tests -v` with Python 3.10 or newer; there are no third-party runtime dependencies. These checks establish structure and educational arithmetic only, not factual accuracy, practical competence or operational validation. Calculation examples use an explicit 1 bar reference and ideal-gas assumptions.
 
-Try the [applied scenario pathway](learning/applied-scenarios.md) for further practice. See its [review record](reviews/2026-11-04-quiz-expansion.md).
+Use the [practice index](learning/applied-scenarios.md) to revisit questions by topic within the same course. See its [review record](reviews/2026-11-04-quiz-expansion.md).
 
 ## Roadmap
 
