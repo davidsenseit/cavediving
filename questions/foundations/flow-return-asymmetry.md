@@ -14,7 +14,7 @@ knowledge_ids:
 
 ## Question
 
-A hypothetical passage has water moving inward from the entrance. A team proposes estimating exit effort from how easy the inward swim feels. What is the key error?
+A passage has water moving inward from the entrance. A team proposes estimating exit effort from how easy the inward swim feels. What is the key error?
 
 ## Choices
 
