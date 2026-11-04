@@ -1,49 +1,115 @@
 ---
 id: CORE-PATH-001
-title: Decision-focused foundation pathway
+title: Cave diving learning pathway
 type: learning_path
-topic: foundation
+topic: mixed
 status: draft
-version: 0.2.0
+version: 0.3.0
 knowledge_ids:
-  - NAV-001
-  - FND-001
-  - FND-002
-  - EQP-001
-  - EQP-002
-  - NAV-002
-  - NAV-003
-  - PLN-001
-  - PLN-002
-  - GAS-001
-  - GAS-002
-  - GAS-003
-  - DEC-001
   - EMR-001
   - ENV-001
   - ENV-002
+  - EQP-001
+  - EQP-002
+  - FND-001
+  - FND-002
+  - GAS-003
+  - GAS-001
+  - GAS-002
+  - NAV-003
+  - NAV-001
+  - NAV-002
+  - DEC-001
+  - PLN-002
+  - PLN-001
   - RES-001
-  - AI-001
 ---
 
-# Decision-focused foundation pathway
+# Cave diving learning pathway
 
-For a compact course section with ten revised questions and guided follow-up discussion, use the [foundation pilot](pilot-pathway.md).
+Start here for the course. Eight modules combine lessons, 21 core questions and 20 optional practice questions. The revised questions belong to this sequence alongside the other authored questions. All learning material remains draft; this is a concept-level learning pathway, not a complete qualification syllabus.
 
-Before assessment, introduce unfamiliar terms using the [glossary](../GLOSSARY.md) and the linked knowledge entries. Keep canonical English terms in all teaching languages; if teaching a term reveals a pending answer, choose another question afterward.
+The course order is recorded in [curriculum-manifest.json](../curriculum-manifest.json). The catalog indexes content; this pathway determines the default teaching sequence.
 
-Use the catalog for direct topic selection or work through these phases. All content is draft; this pathway is not a qualification syllabus.
+## Lesson cycle
 
-1. Establish competence boundaries and environmental uncertainties: FND-001–002.
-2. Examine position control and functional redundancy: EQP-001–002.
-3. Read NAV-001, then contextual markers and connection decisions: NAV-002–003.
-4. Describe limits and communication in a hypothetical team brief: PLN-001–002.
-5. Work through units, reserve reasoning and gas identity: GAS-001–003. Use the calculation review for independently recomputed examples.
-6. Distinguish model predictions from health certainty and practical skill: DEC-001, EMR-001.
-7. Separate evidence from inference and examine survey permissions: ENV-001–002.
-8. Review packing versus function, device versions and assistant evidence: RES-001, AI-001.
+1. Read the module's lessons and every question's linked knowledge entries. Introduce unfamiliar terms using the [glossary](../GLOSSARY.md), including prerequisites from other topics. Keep canonical English terms in Swedish teaching.
+2. Teach the relevant concept briefly using a worked example different from the assessment. If the explanation reveals a pending answer, use a different checked exercise labeled **AI-generated practice** and revisit the authored item later.
+3. Present one core question at a time, showing only its ID, Question and Choices. Keep titles and teaching notes private until feedback.
+4. After the response, explain the reasoning and the relevant alternatives. Use an authored Follow-up discussion when present, asking it separately before consulting Tutor guidance. Where no authored follow-up exists, invite a brief explanation of the deciding fact without claiming it is an authored exercise.
+5. Use the module's practice questions to revisit uncertainty or deepen understanding. Check all their prerequisites first. Practice questions are part of the same course; completing core questions does not automatically start a second question sequence.
+6. Summarize what was understood and what needs another example, then move to the next module. Follow the learner's request to pause, skip or select a topic.
 
-For each concept, read its file and linked authored question from the catalog. Ask one question at a time, hiding the answer. After a response explain the correct choice and the limits of the scenario. If the learner misses a concept, offer a hint or label a new scenario **AI-generated practice**; check it against the accessible knowledge before presenting it. Revisit understanding without imposing a pass score.
+For numerical work, distinguish method, units and arithmetic. Before shared-demand exercises, teach combined normalized L/min × ambient/reference pressure ratio × minutes = reference litres. Add delay segments with their own pressure, duration and demand; a rate already combined for two divers is not doubled again. These are classroom calculations, not operational dive plans.
 
-Finish with a reflective debrief: What assumption changed your answer? What would you need to verify with an instructor? Do not infer real-dive readiness from completion.
+When a learner continues, use the last completed question and any outstanding follow-up from the current conversation. Continue with the next unanswered core question in that module; avoid restarting completed questions merely because they also appear in a topic index. Ask for the last question ID only when progress is unavailable. Keep recognition, explained reasoning and unresolved concepts distinct without imposing passing scores or claiming persistent tracking.
 
+## Module 1: Foundations and conditions
+
+Lessons: [FND-001](../knowledge/foundations/competence-boundaries.md), [FND-002](../knowledge/foundations/environment-change.md), [GAS-002](../knowledge/gas/reserves-and-team-demand.md), [EMR-001](../knowledge/emergencies/stress-and-capacity.md).
+
+Core sequence: [FND-Q001](../questions/foundations/competence-boundaries.md) → [FND-Q002](../questions/foundations/environment-change.md).
+
+Optional practice: [FND-Q003](../questions/foundations/flow-return-asymmetry.md), [FND-Q004](../questions/foundations/passage-configuration.md).
+
+## Module 2: Position control and equipment
+
+Lessons: [EQP-001](../knowledge/equipment/buoyancy-trim-propulsion.md), [EQP-002](../knowledge/equipment/functional-redundancy.md), [RES-001](../knowledge/resources/checklists-devices-logs.md), [PLN-002](../knowledge/planning/communication-and-workload.md), [PLN-001](../knowledge/planning/limits-and-briefing.md).
+
+Core sequence: [EQP-Q001](../questions/equipment/buoyancy-trim-propulsion.md) → [EQP-Q002](../questions/equipment/functional-redundancy.md).
+
+Optional practice: [EQP-Q003](../questions/equipment/battery-failure-analysis.md), [EQP-Q004](../questions/equipment/backup-duration.md), [EQP-Q005](../questions/equipment/stationary-task-silt.md), [EQP-Q006](../questions/equipment/primary-light-loss.md).
+
+## Module 3: Guidelines and route decisions
+
+Lessons: [NAV-001](../knowledge/navigation/guideline-continuity.md), [NAV-002](../knowledge/navigation/markers-and-evidence.md), [NAV-003](../knowledge/navigation/connections-and-decisions.md), [ENV-002](../knowledge/environment/survey-and-conservation.md), [FND-002](../knowledge/foundations/environment-change.md).
+
+Core sequence: [NAV-Q001](../questions/navigation/continuity.md) → [NAV-Q002](../questions/navigation/markers-and-evidence.md) → [NAV-Q003](../questions/navigation/connections-and-decisions.md).
+
+Optional practice: [NAV-Q004](../questions/navigation/parallel-team-lines.md), [NAV-Q005](../questions/navigation/connection-direction.md), [NAV-Q006](../questions/navigation/unfamiliar-cookie.md), [NAV-Q007](../questions/navigation/map-line-disagreement.md), [NAV-Q008](../questions/navigation/nearby-line-end.md).
+
+## Module 4: Gas quantities and demand
+
+Lessons: [GAS-001](../knowledge/gas/pressure-and-consumption.md), [GAS-002](../knowledge/gas/reserves-and-team-demand.md), [GAS-003](../knowledge/gas/oxygen-and-gas-identity.md), [RES-001](../knowledge/resources/checklists-devices-logs.md).
+
+Core sequence: [GAS-Q001](../questions/gas/pressure-and-consumption.md) → [GAS-Q004](../questions/gas/pressure-rate-comparison.md) → [GAS-Q002](../questions/gas/reserves-and-team-demand.md) → [GAS-Q006](../questions/gas/exit-delay-demand.md) → [GAS-Q003](../questions/gas/oxygen-and-gas-identity.md) → [GAS-Q008](../questions/gas/oxygen-pressure-change.md).
+
+Optional practice: [GAS-Q005](../questions/gas/available-gas-comparison.md), [GAS-Q007](../questions/gas/allocation-versus-failure.md), [GAS-Q009](../questions/gas/gas-identity-mismatch.md).
+
+## Module 5: Team plans and communication
+
+Lessons: [PLN-001](../knowledge/planning/limits-and-briefing.md), [PLN-002](../knowledge/planning/communication-and-workload.md), [GAS-002](../knowledge/gas/reserves-and-team-demand.md), [EMR-001](../knowledge/emergencies/stress-and-capacity.md), [EQP-001](../knowledge/equipment/buoyancy-trim-propulsion.md).
+
+Core sequence: [PLN-Q001](../questions/planning/limits-and-briefing.md) → [PLN-Q002](../questions/planning/communication-and-workload.md) → [PLN-Q003](../questions/planning/first-limit.md).
+
+Optional practice: [PLN-Q004](../questions/planning/briefing-signal-disagreement.md), [PLN-Q005](../questions/planning/task-priority.md).
+
+## Module 6: Physiology and emergency capacity
+
+Lessons: [DEC-001](../knowledge/physiology/models-and-risk.md), [EMR-001](../knowledge/emergencies/stress-and-capacity.md), [GAS-002](../knowledge/gas/reserves-and-team-demand.md), [FND-001](../knowledge/foundations/competence-boundaries.md).
+
+Core sequence: [DEC-Q001](../questions/physiology/models-and-risk.md) → [EMR-Q001](../questions/emergencies/stress-and-capacity.md).
+
+Optional practice: [EMR-Q002](../questions/emergencies/compound-demand.md), [EMR-Q003](../questions/emergencies/unpracticed-configuration.md).
+
+## Module 7: Incident learning and conservation
+
+Lessons: [ENV-001](../knowledge/environment/incident-learning.md), [ENV-002](../knowledge/environment/survey-and-conservation.md).
+
+Core sequence: [ENV-Q001](../questions/environment/incident-learning.md) → [ENV-Q002](../questions/environment/survey-and-conservation.md).
+
+Optional practice: [ENV-Q003](../questions/environment/permission-scope.md).
+
+## Module 8: Documentation and debriefing
+
+Lessons: [RES-001](../knowledge/resources/checklists-devices-logs.md), [NAV-001](../knowledge/navigation/guideline-continuity.md), [EQP-001](../knowledge/equipment/buoyancy-trim-propulsion.md).
+
+Core sequence: [RES-Q001](../questions/resources/checklists-devices-logs.md).
+
+Optional practice: [RES-Q002](../questions/resources/log-evidence-limits.md).
+
+## Course debrief
+
+Revisit uncertain concepts using a materially different checked example. Ask which assumptions changed the learner's reasoning and what needs practical work with an instructor. Record question wording concerns separately from the learner's understanding.
+
+The [project appendix](../questions/interoperability/evidence-and-review-status.md) concerns AI-provider evaluation and is available for contributors separately from the diving course.

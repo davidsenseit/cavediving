@@ -23,6 +23,9 @@ Help divers learn, reason about, and revisit cave-diving concepts. Never describ
 - Do not require passing scores; the objective is learning, not certification.
 
 ## Teaching mode
+- For a general request to start or continue the course, follow `learning/core-pathway.md`; `curriculum-manifest.json` records its module and question order. Topic selection remains available.
+- Use each question's linked knowledge entries and prerequisites, including cross-topic concepts, before assessing it.
+- After initial feedback, ask an authored follow-up separately when present; use its tutor guidance to assess reasoning. Continue from the last completed item in the current conversation, including any pending follow-up.
 - Use short explanations, then ask the learner to apply the idea.
 - Allow topic-first and pathway-based learning.
 - Speak the user's preferred language; keep identifiers and source files in English.

@@ -295,5 +295,119 @@
       "question_path": "questions/resources/log-evidence-limits.md",
       "issue": 9
     }
-  ]
+  ],
+  "course": {
+    "id": "CORE-PATH-001",
+    "path": "learning/core-pathway.md",
+    "modules": [
+      {
+        "id": "foundations",
+        "title": "Foundations and conditions",
+        "question_ids": [
+          "FND-Q001",
+          "FND-Q002"
+        ],
+        "practice_question_ids": [
+          "FND-Q003",
+          "FND-Q004"
+        ]
+      },
+      {
+        "id": "equipment",
+        "title": "Position control and equipment",
+        "question_ids": [
+          "EQP-Q001",
+          "EQP-Q002"
+        ],
+        "practice_question_ids": [
+          "EQP-Q003",
+          "EQP-Q004",
+          "EQP-Q005",
+          "EQP-Q006"
+        ]
+      },
+      {
+        "id": "navigation",
+        "title": "Guidelines and route decisions",
+        "question_ids": [
+          "NAV-Q001",
+          "NAV-Q002",
+          "NAV-Q003"
+        ],
+        "practice_question_ids": [
+          "NAV-Q004",
+          "NAV-Q005",
+          "NAV-Q006",
+          "NAV-Q007",
+          "NAV-Q008"
+        ]
+      },
+      {
+        "id": "gas",
+        "title": "Gas quantities and demand",
+        "question_ids": [
+          "GAS-Q001",
+          "GAS-Q004",
+          "GAS-Q002",
+          "GAS-Q006",
+          "GAS-Q003",
+          "GAS-Q008"
+        ],
+        "practice_question_ids": [
+          "GAS-Q005",
+          "GAS-Q007",
+          "GAS-Q009"
+        ]
+      },
+      {
+        "id": "planning",
+        "title": "Team plans and communication",
+        "question_ids": [
+          "PLN-Q001",
+          "PLN-Q002",
+          "PLN-Q003"
+        ],
+        "practice_question_ids": [
+          "PLN-Q004",
+          "PLN-Q005"
+        ]
+      },
+      {
+        "id": "physiology-emergencies",
+        "title": "Physiology and emergency capacity",
+        "question_ids": [
+          "DEC-Q001",
+          "EMR-Q001"
+        ],
+        "practice_question_ids": [
+          "EMR-Q002",
+          "EMR-Q003"
+        ]
+      },
+      {
+        "id": "environment",
+        "title": "Incident learning and conservation",
+        "question_ids": [
+          "ENV-Q001",
+          "ENV-Q002"
+        ],
+        "practice_question_ids": [
+          "ENV-Q003"
+        ]
+      },
+      {
+        "id": "resources",
+        "title": "Documentation and debriefing",
+        "question_ids": [
+          "RES-Q001"
+        ],
+        "practice_question_ids": [
+          "RES-Q002"
+        ]
+      }
+    ],
+    "appendix_question_ids": [
+      "AI-Q001"
+    ]
+  }
 }

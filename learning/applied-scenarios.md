@@ -1,10 +1,10 @@
 ---
 id: LEARN-APPLIED-001
-title: Applied scenario practice
+title: Course practice index
 type: learning_path
 topic: mixed
 status: draft
-version: 0.1.1
+version: 0.2.0
 knowledge_ids:
   - EMR-001
   - ENV-002
@@ -23,7 +23,9 @@ knowledge_ids:
   - RES-001
 ---
 
-# Applied scenario practice
+# Course practice index
+
+Use the [course](core-pathway.md) for the default sequence. This is a topic index of 24 scenario questions: four are core course items (GAS-Q004, GAS-Q006, GAS-Q008 and PLN-Q003), and twenty are optional practice within their modules. Resume the course after selected practice; use question IDs to avoid repeating completed items.
 
 Before assessment, introduce unfamiliar terms using the [glossary](../GLOSSARY.md) and the linked knowledge entries. Keep canonical English terms in all teaching languages; if teaching a term reveals a pending answer, choose another question afterward.
 
