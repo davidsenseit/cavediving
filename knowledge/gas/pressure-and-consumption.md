@@ -4,7 +4,7 @@ title: Use absolute pressure and explicit units
 type: knowledge
 topic: gas
 status: draft
-version: 0.3.0
+version: 0.4.0
 ---
 
 # Use absolute pressure and explicit units
@@ -29,14 +29,14 @@ Absolute ambient pressure includes surface pressure. It is not the pressure show
 
 ## Original example
 
-For 18 L total water volume, 50 bar used in 15 min at a constant 3 bar absolute:
+For 20 L total water volume, 36 bar used in 12 min at a constant 2 bar absolute:
 
-- Gas quantity used: 18 × 50 ÷ 1 = 900 reference L.
-- Reference-volume rate during the dive: 900 ÷ 15 = 60 L/min.
-- Pressure ratio: 3 bar absolute ÷ 1 bar = 3.
-- Surface-normalized breathing rate: 60 ÷ 3 = 20 L/min.
+- Gas quantity used: 20 × 36 ÷ 1 = 720 reference L.
+- Reference-volume rate during the dive: 720 ÷ 12 = 60 L/min.
+- Pressure ratio: 2 bar absolute ÷ 1 bar = 2.
+- Surface-normalized breathing rate: 60 ÷ 2 = 30 L/min.
 
-The same record shows 50 ÷ 15, or about 3.33 bar/min. That is a cylinder pressure-loss rate, not the normalized 20 L/min volume rate. Neither rate establishes future emergency demand.
+The same record shows 36 ÷ 12, or 3 bar/min. That is a cylinder pressure-loss rate, not the normalized 30 L/min volume rate. Neither rate establishes future emergency demand.
 
 ## When depth changes
 
@@ -44,9 +44,6 @@ The constant-pressure shortcut needs care when pressure varies. With approximate
 
 If breathing demand also changes, this calculation gives a pressure-weighted estimate rather than necessarily the diver's time-average surface-normalized rate. Gas used for buoyancy or other purposes also affects an estimate made from cylinder pressure loss. Use appropriate segment data and state what the record includes.
 
-
 ## Check understanding
 
-Explain the assumption most likely to make the example unsafe if ignored.
-
-
+Why can two divers have equal bar/min losses but different normalized L/min rates? Explain which cylinder input matters.

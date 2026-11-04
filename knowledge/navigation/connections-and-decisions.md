@@ -4,7 +4,7 @@ title: A connection and a route decision are different
 type: knowledge
 topic: navigation
 status: draft
-version: 0.2.1
+version: 0.3.0
 ---
 
 # A connection and a route decision are different
@@ -23,9 +23,12 @@ In these entries, a jump is a temporary connection from a route line to a separa
 
 A side-passage line begins within sight of the main route. Its proximity does not establish continuity. The team must also distinguish its return direction from other branches and other teams' installations.
 
+## Read the arrangement before naming the problem
+
+At an already connected T-junction, branch selection remains necessary even though there is no physical break. Where separate guidelines must be connected, continuity needs attention as well. The length of a separation does not determine whether a transition is a jump or gap; the actual line arrangement matters.
+
+For a classroom drawing, first identify what is connected, then identify the team’s return branch. State ownership and any local marker convention rather than inferring them from another team’s installation.
 
 ## Check understanding
 
-Explain the assumption most likely to make the example unsafe if ignored.
-
-
+Contrast the unresolved questions at an unmarked connected T-junction and at a separate branch line.

@@ -1,28 +1,42 @@
 ---
 id: GAS-Q006
-title: Account for a delay in shared-gas demand
+title: Exit-demand worksheet
 type: question
 topic: gas
 status: draft
-version: 0.1.0
+version: 0.2.0
 knowledge_ids:
   - GAS-001
   - GAS-002
 ---
 
-# Account for a delay in shared-gas demand
+# Exit-demand worksheet
+
+## Teaching notes
+
+- Learning objective: Diagnose omission of a delay from combined shared-gas demand.
+- Level: Calculation error analysis
+- Prerequisites: Combined versus individual normalized demand; pressure ratio; time-dependent consumption.
 
 ## Question
 
-A classroom model assigns two divers a combined surface-normalized demand of 44 L/min throughout an 11-minute exit at constant 3 bar absolute. A further 4-minute delay occurs at that same pressure and rate. Use a 1 bar reference and ideal gas. What total reference-volume demand does this stipulated model produce?
+A classroom worksheet stipulates a combined surface-normalized demand of 44 L/min for two divers at constant 3 bar absolute. The exit takes 11 minutes plus a 4-minute delay at the same pressure and rate. Using ideal gas and a 1 bar reference, a learner writes 44 × 3 × 11 = 1,452 reference L as the total. Which correction is needed?
 
 ## Choices
 
-A. 1,980 L.
-B. 660 L.
-C. 1,452 L.
-D. 3,960 L.
+A. Add 528 reference L for the delay, giving 1,980 reference L.
+B. Add 176 reference L for the delay, giving 1,628 reference L.
+C. Double the original 1,452 reference L for two divers, giving 2,904 reference L.
+D. Add 264 reference L for the delay, giving 1,716 reference L.
 
 ## Answer and explanation
 
-**A.** 44 × 3 × (11 + 4) = 1,980 L. B omits the pressure ratio; C excludes the delay; D counts the pair twice even though 44 L/min is already combined. This is demand arithmetic only: it supplies neither an adequate reserve nor a realistic emergency rate for a real team.
+**A.** The delay occurs at the same combined rate and pressure: 44 × 3 × 4 = 528 reference L. Total demand is 1,452 + 528 = 1,980 reference L. B omits the delay’s pressure multiplier. C counts the pair twice and still omits the delay. D halves a demand that already describes both divers. This is a stipulated demand calculation, without a supply assessment or additional margin.
+
+## Follow-up discussion
+
+Which inputs would need reassessment if the delay involved greater exertion or a different depth?
+
+### Tutor guidance
+
+Expect breathing demand and absolute ambient pressure for the affected segment, as well as its duration. The supplied 44 L/min is an exercise input, not a recommended emergency rate.

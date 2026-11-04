@@ -4,7 +4,7 @@ title: Conditions change the return problem
 type: knowledge
 topic: foundations
 status: draft
-version: 0.1.0
+version: 0.2.0
 ---
 
 # Conditions change the return problem
@@ -17,7 +17,12 @@ Flow, visibility and passage geometry affect both entry and exit. An easy inward
 
 A team has only last season’s description of a passage. Its first decision is whether current information is sufficient, not how to reach the previous distance.
 
+## Reason through the return
+
+Separate travel direction from water direction. Assistance on entry can become resistance on return. Distance alone therefore cannot predict exit time or gas use. Estimate travel time and breathing demand separately; greater effort may affect the latter as well as the former. Visibility and passage clearance can introduce further delays.
+
+A previous visit is useful context, but changed flow, equipment or conditions can invalidate its timing assumptions.
 
 ## Check understanding
 
-Explain the assumption most likely to make the example unsafe if ignored.
+Name two inputs that need reassessment when a current assists entry but opposes return.

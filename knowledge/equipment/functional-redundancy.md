@@ -4,7 +4,7 @@ title: Redundancy must survive the same failure
 type: knowledge
 topic: equipment
 status: draft
-version: 0.2.0
+version: 0.3.0
 ---
 
 # Redundancy must survive the same failure
@@ -19,8 +19,12 @@ For the conventional open-circuit cave-diving context of these entries, each div
 
 A diver packs three light heads, but two draw power from the same battery. A failure of that battery removes both heads. Identify independent power and usable backup duration rather than counting visible lamps.
 
+## Separate independence from endurance
+
+Ask what a single failure disables. Separate switches do not separate a shared battery; greater battery capacity does not remove that dependency. A replacement part that must be fitted after failure is not the same as a usable independent backup.
+
+Then ask how long the remaining equipment can perform its role. A switch-on check establishes present operation, not burn time. Compatibility, access and usable duration need their own assessment against the planned exposure and contingencies.
 
 ## Check understanding
 
-Explain the assumption most likely to make the example unsafe if ignored.
-
+What different questions are answered by checking independent power and checking usable burn time?

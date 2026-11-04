@@ -4,7 +4,7 @@ title: Continuous guideline to a verified exit
 type: knowledge
 topic: navigation
 status: draft
-version: 0.2.1
+version: 0.3.0
 ---
 
 # Continuous guideline to a verified exit
@@ -29,10 +29,12 @@ Do not assume that a directional arrow, an unfamiliar line, or a map proves an e
 
 This is a concept overview, not instructions for placing reels, negotiating a junction, or making a cave penetration. Those skills require appropriate supervised training and local procedures.
 
+## Separate navigation functions
+
+A compass heading supplies direction; a recognizable feature supplies a visual reference; a guideline supplies a physical route reference. These can complement each other, but their functions are not interchangeable. A visible main line still needs an appropriate connection to the team’s entrance guideline when the route between them lies under the underwater overhead.
+
+After checking continuity, check route identity. A physically connected line network can still offer more than one return branch. Continuity and branch identification are separate requirements.
+
 ## Check understanding
 
-Explain why merely being able to see a line is not sufficient to establish an exit route.
-
-
-
-
+Why might a route drawing need correction even when every line shown is physically connected?

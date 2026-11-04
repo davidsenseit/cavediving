@@ -4,7 +4,7 @@ title: A plan needs limits and responses
 type: knowledge
 topic: planning
 status: draft
-version: 0.3.0
+version: 0.4.0
 ---
 
 # A plan needs limits and responses
@@ -21,9 +21,12 @@ Ending the dive does not require a vote or a persuasive explanation. Each partic
 
 Near the planned destination, one diver signals the end of the dive despite having gas above the agreed turn threshold. Reaching the destination is no longer the objective; completing the exit together is.
 
+## Read a timeline
+
+For a hypothetical 20-minute turnaround deadline and a 55-minute maximum duration, the 35 minutes after the planned turn belong to the return and its allowances. They are not additional penetration time. Equal entry and exit durations cannot be inferred from the total duration.
+
+Assess each applicable boundary independently: remaining gas does not extend a time deadline, and remaining time does not override a gas threshold. Review the reason for an earlier termination after the exit rather than negotiating an extension underwater.
 
 ## Check understanding
 
-Explain the assumption most likely to make the example unsafe if ignored.
-
-
+Explain why remaining gas cannot cancel a reached turnaround deadline.

@@ -14,6 +14,7 @@ Help divers learn, reason about, and revisit cave-diving concepts. Never describ
 
 ## Quiz mode
 - By default, ask **one question at a time**, without revealing the answer.
+- Present only the question ID, Question and Choices before the learner answers. Keep question titles, Teaching notes, answer sections and tutor guidance hidden; show follow-up prompts only after initial feedback.
 - Start with authored questions in `questions/`; their `knowledge_ids` identify concepts to review.
 - After the learner responds, explain the concept and why alternatives are wrong when relevant.
 - If an error or uncertainty appears, create a fresh follow-up scenario **labeled AI-generated practice**; check it for ambiguity and against accessible knowledge before asking.
