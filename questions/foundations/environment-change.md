@@ -27,8 +27,3 @@ D. A diver improved a quiz score.
 ## Answer and explanation
 
 **A.** A return against an inward current may require more effort and gas. Current strength and direction need assessment; this fictional observation does not establish conditions at any real cave.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

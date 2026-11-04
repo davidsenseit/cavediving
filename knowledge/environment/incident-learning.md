@@ -5,8 +5,6 @@ type: knowledge
 topic: environment
 status: draft
 version: 0.1.0
-source_ids:
-  - EDITORIAL-REASONING
 ---
 
 # Separate observations from explanations
@@ -19,9 +17,6 @@ An incident account may contain measured facts, recollections, interpretations a
 
 An anonymous post says a diver was rescued after a gas problem. Without a verified report, use it to frame questions, not to publish a confident causal history.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

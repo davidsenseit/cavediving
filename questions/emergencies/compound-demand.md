@@ -26,7 +26,3 @@ D. Equipment redundancy makes exit duration irrelevant.
 ## Answer and explanation
 
 **A.** A compound event can reduce capacity while increasing tasks. Its duration and demand cannot be assumed unchanged. B invents cancellation; C turns practice into a guarantee; D ignores breathing over time. The scenario does not prescribe an emergency rate or procedure.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

@@ -27,8 +27,3 @@ D. Use the single story to calculate a fatality rate.
 ## Answer and explanation
 
 **A.** The account may suggest questions, but missing facts and causation remain unresolved. A rate also requires a defined population and exposure denominator.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

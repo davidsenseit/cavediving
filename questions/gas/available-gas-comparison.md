@@ -26,7 +26,3 @@ D. The inventories are approximately 3,680 L and 4,080 L; reserve adequacy is st
 ## Answer and explanation
 
 **D.** Multiply water volume by pressure: 16 × 230 = 3,680 L and 24 × 170 = 4,080 L. A ignores volume, B treats cylinder count as capacity, and C substitutes inventory for a failure-and-demand assessment. Real high-pressure gas also departs from this idealization.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

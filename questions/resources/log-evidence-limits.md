@@ -27,7 +27,3 @@ D. A certification of team competence.
 ## Answer and explanation
 
 **C.** The trace measures depth behavior, not every navigation or movement action. A and B infer unrecorded observations; D turns a log into a competence assessment. Debriefing and practical observation address questions that depth data cannot settle.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

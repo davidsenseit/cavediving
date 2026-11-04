@@ -27,8 +27,3 @@ D. 20 bar/min.
 ## Answer and explanation
 
 **C.** 18 × 50 = 900 surface-equivalent litres. Divide by 15 minutes and by the pressure ratio of 3: the result is 20 L/min. 60 L/min omits depth normalization; bar/min is a pressure rate.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

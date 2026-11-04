@@ -5,9 +5,6 @@ type: knowledge
 topic: environment
 status: draft
 version: 0.1.0
-source_ids:
-  - NSS-CONSERVATION
-  - EDITORIAL-REASONING
 ---
 
 # A survey is evidence with limits
@@ -20,9 +17,6 @@ A map represents recorded observations, not a guarantee of present access or a n
 
 A proposed survey adds work close to delicate sediment. Assess competence, permission, task loading and environmental effects before adding it to the dive.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

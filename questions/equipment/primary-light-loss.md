@@ -26,7 +26,3 @@ D. Continue because familiarity replaces the failed primary.
 ## Answer and explanation
 
 **A.** The backup supports the exit following the failure. B consumes another safety margin; C substitutes another diver’s illumination for the failed provision; D substitutes familiarity for equipment capability. The exact exit execution belongs to practical training.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

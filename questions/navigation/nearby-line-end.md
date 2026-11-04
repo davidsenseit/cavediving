@@ -26,8 +26,3 @@ D. Only the entry direction needs a physical reference.
 ## Answer and explanation
 
 **A.** The route must remain meaningful when the view changes. B confuses illumination with connection; C confuses a record with a physical reference; D ignores the return. This question does not teach connection placement or authorize a branch dive.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.
-

@@ -27,8 +27,3 @@ D. All safety claims are operationally validated.
 ## Answer and explanation
 
 **C.** Link validation addresses structure. It does not demonstrate teaching behavior, technical accuracy or suitability for diving.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

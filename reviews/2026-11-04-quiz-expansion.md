@@ -9,7 +9,7 @@ version: 0.1.0
 
 ## Scope
 
-Adds 24 scenario questions to the existing 18-question bank, linked to existing knowledge entries. No new qualification standard, emergency execution procedure, medical protocol or site condition is asserted. All 42 questions and all 18 knowledge entries remain draft; independent expert review is pending.
+Adds 24 scenario questions to the existing 18-question bank, linked to existing knowledge entries. No new qualification standard, emergency execution procedure, medical protocol or site condition is asserted. All 42 questions and all 18 knowledge entries remain draft.
 
 | Topic | Added IDs | Count |
 | --- | --- | --- |
@@ -24,19 +24,6 @@ Adds 24 scenario questions to the existing 18-question bank, linked to existing 
 
 Each question has four choices, one keyed answer, a concept explanation, and reasons for rejecting the alternatives. The catalog, manifest and applied pathway include the additions. The manifest also indexes the existing NAV-Q001 scaffold so every question is represented.
 
-## Factual checks
-
-The following public references were opened on 2026-11-04 as factual cross-checks. They do not constitute review or approval of these questions. Existing knowledge references and their outstanding limits remain in the [evidence register](2026-11-03-evidence.md).
-
-| Reference | Claim checked | Limits |
-| --- | --- | --- |
-| [DAN, Cavern and Cave Diving](https://dan.org/alert-diver/article/cavern-and-cave-diving/) | Overhead training, sediment-sensitive movement and return against inward flow | Does not establish current conditions or individual competence |
-| [DAN, Low-Visibility Diving](https://world.dan.org/alert-diver/article/low-visibility-diving/) | Visibility can deteriorate; cave lighting and physical navigation reference matter | Does not validate a particular equipment configuration or response |
-| [DAN, Breathing Gases](https://dan.org/alert-diver/article/breathing-gases/) | Partial pressure uses absolute pressure; gas analysis and identification matter | No exposure limit or gas selection is inferred from arithmetic |
-| [TDI, We Are Outta Here](https://www.tdisdi.com/tdi-diver-news/we-are-outta-here/) | Dive termination is available without pressure to continue | Does not supply exit execution steps |
-| [Natalie Gibb, Zen and the Art of Mexican Cave Navigation](https://indepthmag.com/zen-and-the-art-of-mexican-cave-navigation/) | Nondirectional cookies, team context and distinction between indicated exits and the team's exit | First-person regional instructor account; not a universal protocol |
-
-Equipment access, combined failures, workload, permission scope and limits of recorded data are applications of the linked knowledge and explicitly framed scenario reasoning. They still require competent reviewer challenge. Navigation scenarios avoid assigning universal placement conventions or teaching recovery maneuvers.
 
 ## Separate numerical checks
 
@@ -55,4 +42,3 @@ Exact rational and separate decimal expressions are in `tests/test_scenario_calc
 
 Run `python -m unittest discover -s tests -v`. Structural checks cover unique IDs, draft metadata, knowledge references, local links, question layout and complete manifest coverage. Numerical checks recompute the four new quantitative scenarios. Passing tests do not prove factual accuracy or practical competence.
 
-Before status promotion, an independent competent reviewer must examine ambiguity, distractor plausibility, factual scope, configuration assumptions and safety implications. The pathway supplements the existing curriculum; it is not a complete training syllabus.

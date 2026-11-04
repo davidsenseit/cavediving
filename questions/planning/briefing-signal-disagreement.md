@@ -26,7 +26,3 @@ D. Add more tactile signals without checking the existing disagreement.
 ## Answer and explanation
 
 **B.** A signal needs a shared, perceivable meaning. A preserves the mismatch; C depends on an unguaranteed condition; D adds complexity to an unresolved communication gap. A verbal agreement alone also does not demonstrate practical capability.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

@@ -27,8 +27,3 @@ D. The signal was repeated without any response.
 ## Answer and explanation
 
 **B.** A recognizable confirmation provides evidence of receipt. Neither repeated transmission nor the sender's confidence establishes understanding.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

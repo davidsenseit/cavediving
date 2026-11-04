@@ -27,9 +27,3 @@ D. 152 bar, obtained by halving the combined demand, converting it to a pressure
 ## Answer and explanation
 
 **A.** Retained pressure is 3,520 ÷ 20 = 176 bar. Independently, the starting inventory is 20 × 240 = 4,800 L; the entry allowance is 4,800 − 3,520 = 1,280 L, corresponding to 64 bar used and 240 − 64 = 176 bar remaining. B leaves only 3,200 L, a modeled shortage of 320 L. C confuses the pressure drop allowed with pressure that must remain. D incorrectly halves a requirement that already includes both divers and produces neither the required pressure nor the correct entry allowance. The correct arithmetic retains exactly the stated demand, with no additional margin; it does not validate the assumptions or establish an operational plan.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-
-

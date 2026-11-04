@@ -18,20 +18,9 @@ Overall tracking: [Goal #1](https://github.com/davidsenseit/cavediving/issues/1)
 | Original quizzes and practical learning resources | [#9](https://github.com/davidsenseit/cavediving/issues/9) |
 | AI interoperability and release quality | [#10](https://github.com/davidsenseit/cavediving/issues/10) |
 
-## Process
-
-1. Identify the knowledge required to understand a topic.
-2. Validate factual claims and assumptions independently.
-3. Create original, concise English learning material.
-4. Create original questions and scenarios linked to stable concept IDs.
-5. Review technical accuracy, safety and intellectual-property suitability.
-6. Record actual review status and update the catalog.
-
-Knowledge and questions not yet independently reviewed must remain marked `draft`. Only validated calculation utilities can be considered for operational planning, and every real dive requires trained human judgment, current site information and independent checks.
-
 The tracker records work that can be continued in future sessions. It does not run work in the background.
 
 
 ## First draft implementation — 2026-11-03
 
-A concept-level pass across #2–#10 adds 17 new entries and 17 original questions to the existing navigation example. See the [catalog](catalog.md) and [coverage record](reviews/2026-11-03-coverage.md) for delivered concepts and explicit omissions. Independent source checks and separate numerical recomputation are recorded; expert review and real cross-provider tests remain pending. All learning material remains draft and the work packages stay open.
+A concept-level pass across #2–#10 adds 17 new entries and 17 original questions to the existing navigation example. See the [catalog](catalog.md) and [coverage record](reviews/2026-11-03-coverage.md) for delivered concepts and explicit omissions. All learning material remains draft.

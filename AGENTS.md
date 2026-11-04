@@ -43,4 +43,4 @@ Always prioritize a continuous, positively verified exit route, appropriate rese
 - Accept listed aliases from learners and assess meaning rather than spelling; use canonical forms in your own explanations.
 - Before any question, including direct topic selection, check that prerequisite concepts have been introduced. Teach unfamiliar concepts first. If that reveals the answer, use a different question afterward.
 - Distinguish terminology from local procedures. State relevant regional or training-convention differences and never treat an unfamiliar marker as the team's exit reference.
-- Glossary definitions remain draft until independent expert review is documented. Do not equate a canonical spelling with verified technical authority.
+- Respect `draft` and `verified` status in glossary definitions.

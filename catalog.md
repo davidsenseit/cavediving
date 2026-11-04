@@ -9,7 +9,7 @@ version: 0.3.2
 
 Use the [shared glossary](GLOSSARY.md) before introducing or assessing navigation terminology.
 
-First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions await independent expert review. Start with [the learning pathway](learning/core-pathway.md).
+First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions have status `draft`. Start with [the learning pathway](learning/core-pathway.md).
 
 | Knowledge ID | Knowledge | Original question | Issue | Status |
 | --- | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ First concept-level draft across work packages #2–#10; not a complete training
 | RES-001 | [RES-001](knowledge/resources/checklists-devices-logs.md) | [RES-Q001](questions/resources/checklists-devices-logs.md) | #9 | Draft |
 | AI-001 | [AI-001](knowledge/interoperability/evidence-and-review-status.md) | [AI-Q001](questions/interoperability/evidence-and-review-status.md) | #10 | Draft |
 
-See [coverage and gaps](reviews/2026-11-03-coverage.md), [source checks](reviews/2026-11-03-evidence.md), and [calculation review](reviews/2026-11-03-calculations.md). No content is expert-verified.
+See [coverage and gaps](reviews/2026-11-03-coverage.md), and [calculation review](reviews/2026-11-03-calculations.md).
 
 ## Applied scenario questions
 

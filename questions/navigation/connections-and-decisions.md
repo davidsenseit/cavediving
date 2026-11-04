@@ -27,8 +27,3 @@ D. The age of the spool and the brightness of the entrance.
 ## Answer and explanation
 
 **A.** A connection supplies continuity; correct route identification supplies direction. Neither substitutes for the other or establishes competence to perform the maneuver.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

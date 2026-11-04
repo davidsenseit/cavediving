@@ -27,8 +27,3 @@ D. End penetration and carry out the trained exit response.
 ## Answer and explanation
 
 **D.** The decision does not need approval from the other divers. Gas and destination limits never remove a participant's authority to end the dive. Reasons can be discussed after a safe exit.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

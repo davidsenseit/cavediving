@@ -5,10 +5,6 @@ type: knowledge
 topic: planning
 status: draft
 version: 0.3.0
-source_ids:
-  - CDG-TRAINING
-  - TDI-TERMINATION
-  - EDITORIAL-REASONING
 ---
 
 # A plan needs limits and responses
@@ -25,9 +21,6 @@ Ending the dive does not require a vote or a persuasive explanation. Each partic
 
 Near the planned destination, one diver signals the end of the dive despite having gas above the agreed turn threshold. Reaching the destination is no longer the objective; completing the exit together is.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

@@ -26,7 +26,3 @@ D. Any fixed gas fraction automatically accounts for all flow strengths.
 ## Answer and explanation
 
 **B.** Assistance inward can become resistance outward. A assumes symmetry; C ties flow effects to an optional task; D treats an allocation as a validated demand model. Current conditions and team capability require assessment before using any estimate.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

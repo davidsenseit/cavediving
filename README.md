@@ -2,7 +2,7 @@
 
 An AI-agnostic, English-language learning resource for cave diving. Use it with an AI assistant that can read this repository: ChatGPT, Claude, Codex, local agents, or other compatible tools.
 
-**Status: first curriculum draft.** There are 18 knowledge entries and 42 original questions, including the original scaffold and 24 applied scenarios. All learning content remains draft and has not received independent expert review. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
+**Status: first curriculum draft.** There are 18 knowledge entries and 42 original questions, including the original scaffold and 24 applied scenarios. All learning content remains draft. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
 
 ## Start here
 
@@ -13,7 +13,7 @@ An AI-agnostic, English-language learning resource for cave diving. Use it with 
 
 ## Terminology
 
-Follow the language-independent [glossary](GLOSSARY.md): keep canonical English cave-diving terms even when explanations are in Swedish or another language. Introduce unfamiliar concepts before assessment. Contributors must follow the [terminology guidance](governance/CONTRIBUTING.md#terminology). Technical definitions remain draft pending independent expert review.
+Follow the language-independent [glossary](GLOSSARY.md): keep canonical English cave-diving terms even when explanations are in Swedish or another language. Introduce unfamiliar concepts before assessment. Contributors must follow the [terminology guidance](governance/CONTRIBUTING.md#terminology).
 
 ## Structure
 
@@ -23,13 +23,13 @@ Follow the language-independent [glossary](GLOSSARY.md): keep canonical English 
 - `questions/` — authored quiz questions linked to knowledge IDs.
 - `learning/` — guided topic pathways; users may also pick a topic freely.
 - `schema/` — metadata conventions for Markdown front matter.
-- `governance/` — review process, safety and original-content policy.
+- `governance/` — safety and original-content policy.
 
 All published learning content is in English. AI assistants may converse in the learner's preferred language.
 
 ## Validation and review
 
-Read the [coverage and gaps](reviews/2026-11-03-coverage.md), [evidence register](reviews/2026-11-03-evidence.md), [separate calculation review](reviews/2026-11-03-calculations.md) and [portability test protocol](reviews/interoperability-protocol.md). Follow the [core pathway](learning/core-pathway.md) or select a topic in the catalog.
+Read the [coverage and gaps](reviews/2026-11-03-coverage.md), [separate calculation review](reviews/2026-11-03-calculations.md) and [portability test protocol](reviews/interoperability-protocol.md). Follow the [core pathway](learning/core-pathway.md) or select a topic in the catalog.
 
 Run `python -m unittest discover -s tests -v` with Python 3.10 or newer; there are no third-party runtime dependencies. These checks establish structure and educational arithmetic only, not factual accuracy, practical competence or operational validation. Calculation examples use an explicit 1 bar reference and ideal-gas assumptions.
 
@@ -37,7 +37,7 @@ Try the [applied scenario pathway](learning/applied-scenarios.md) for further pr
 
 ## Roadmap
 
-Expand independently authored, technically reviewed modules covering gas management, navigation, equipment, emergencies, and dive planning. Add validated deterministic calculation tools only after test cases and reviewer sign-off. Separate educational scenarios from real dive decisions.
+Expand independently authored, technically reviewed modules covering gas management, navigation, equipment, emergencies, and dive planning. Add deterministic calculation tools with executable test cases. Separate educational scenarios from real dive decisions.
 
 ## License note
 

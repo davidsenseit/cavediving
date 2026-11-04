@@ -27,8 +27,3 @@ D. 1.28 bar.
 ## Answer and explanation
 
 **D.** Multiply fraction by absolute ambient pressure: 0.32 × 4 = 1.28 bar. Using 3 bar would omit surface pressure. This result alone does not approve a gas or exposure.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

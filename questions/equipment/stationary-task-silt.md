@@ -26,7 +26,3 @@ D. Orientation, movement and task loading need attention despite stable depth.
 ## Answer and explanation
 
 **D.** Depth balance does not establish good trim, low-impact movement or spare attention. A and B mistake one measurement for the whole skill; C assumes added workload is corrective. Use suitable supervised practice rather than judging control from depth alone.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

@@ -5,9 +5,6 @@ type: knowledge
 topic: equipment
 status: draft
 version: 0.2.0
-source_ids:
-  - DAN-LOWVIS
-  - EDITORIAL-REASONING
 ---
 
 # Redundancy must survive the same failure
@@ -22,9 +19,6 @@ For the conventional open-circuit cave-diving context of these entries, each div
 
 A diver packs three light heads, but two draw power from the same battery. A failure of that battery removes both heads. Identify independent power and usable backup duration rather than counting visible lamps.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

@@ -27,9 +27,3 @@ D. Medical assessment is unnecessary.
 ## Answer and explanation
 
 **B.** The computer estimates exposure using a model; it is not a physiological examination. A symptom concern warrants appropriate medical assessment.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-
-

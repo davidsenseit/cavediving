@@ -29,9 +29,3 @@ D. Recording a compass bearing across the space supplies the missing continuous 
 ## Common misconceptions
 
 Seeing a line and knowing where it leads are different things. Permanent markers are not a substitute for verifying the team's specific exit.
-
-## Review note
-
-Draft educational question; not a field procedure or endorsement of making a jump without training.
-
-

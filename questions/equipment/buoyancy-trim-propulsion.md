@@ -27,8 +27,3 @@ D. That depth was stable, without proving trim or appropriate propulsion.
 ## Answer and explanation
 
 **D.** A depth trace records vertical position. It does not measure fin clearance or body orientation and cannot demonstrate low-impact movement.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-
