@@ -47,8 +47,16 @@ class ContentChecks(unittest.TestCase):
                 self.assertTrue(set(ids) <= known, str(path))
         for path in (ROOT / 'questions').rglob('*.md'):
             text = path.read_text()
-            for heading in ('## Question', '## Choices', '## Answer and explanation'):
+            m = metadata(path)
+            headings = ('## Question', '## Response format', '## Answer and explanation') if m.get('response_type') == 'calculation' else ('## Question', '## Choices', '## Answer and explanation')
+            for heading in headings:
                 self.assertIn(heading, text)
+            if m.get('response_type') == 'calculation':
+                self.assertNotIn('## Choices', text, str(path))
+                for heading in ('## Follow-up discussion', '## Tutor guidance'):
+                    self.assertIn(heading, text, str(path))
+                continue
+            self.assertNotIn('response_type', m, str(path))
             choices = re.findall(r'^([A-D])\. ', text, re.M)
             self.assertEqual(choices, list('ABCD'), str(path))
             answer = re.search(r'## Answer and explanation\n\n\*\*([A-D])\.', text)
@@ -78,3 +86,4 @@ class ContentChecks(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

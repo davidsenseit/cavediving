@@ -1,0 +1,576 @@
+[
+  {
+    "id": "GAS-Q010",
+    "path": "questions/gas/identify-twinset-inventory.md",
+    "kind": "inventory",
+    "inputs": {
+      "volumes": [
+        12,
+        12
+      ],
+      "pressures": [
+        190,
+        190
+      ]
+    },
+    "expected": {
+      "water_volume": 24,
+      "quantity": 4560
+    }
+  },
+  {
+    "id": "GAS-Q011",
+    "path": "questions/gas/separate-cylinder-readings.md",
+    "kind": "inventory",
+    "inputs": {
+      "volumes": [
+        11,
+        11
+      ],
+      "pressures": [
+        180,
+        150
+      ]
+    },
+    "expected": {
+      "water_volume": 22,
+      "individual_quantities": [
+        1980,
+        1650
+      ],
+      "quantity": 3630
+    }
+  },
+  {
+    "id": "GAS-Q012",
+    "path": "questions/gas/used-and-remaining-quantity.md",
+    "kind": "consumption",
+    "inputs": {
+      "volume": 24,
+      "start": 220,
+      "current": 165
+    },
+    "expected": {
+      "drop": 55,
+      "used": 1320,
+      "remaining": 3960,
+      "starting": 5280
+    }
+  },
+  {
+    "id": "GAS-Q013",
+    "path": "questions/gas/convert-quantity-to-pressure.md",
+    "kind": "inverse",
+    "inputs": {
+      "quantity": 1440,
+      "volumes": [
+        24,
+        20
+      ],
+      "start": 220
+    },
+    "expected": {
+      "drops": [
+        60,
+        72
+      ],
+      "readings": [
+        160,
+        148
+      ]
+    }
+  },
+  {
+    "id": "GAS-Q014",
+    "path": "questions/gas/sixths-allocation.md",
+    "kind": "fraction",
+    "inputs": {
+      "volume": 24,
+      "start": 216,
+      "denominator": 6
+    },
+    "expected": {
+      "starting": 5184,
+      "entry_pressure": 36,
+      "entry_quantity": 864,
+      "turn_pressure": 180,
+      "retained": 4320
+    }
+  },
+  {
+    "id": "GAS-Q015",
+    "path": "questions/gas/compare-sixths-and-thirds.md",
+    "kind": "fractions",
+    "inputs": {
+      "volume": 18,
+      "start": 240,
+      "denominators": [
+        6,
+        3
+      ]
+    },
+    "expected": {
+      "starting": 4320,
+      "entry_pressures": [
+        40,
+        80
+      ],
+      "entry_quantities": [
+        720,
+        1440
+      ],
+      "turn_pressures": [
+        200,
+        160
+      ],
+      "retained": [
+        3600,
+        2880
+      ]
+    }
+  },
+  {
+    "id": "GAS-Q016",
+    "path": "questions/gas/round-retained-pressure.md",
+    "kind": "retention",
+    "inputs": {
+      "volume": 24,
+      "start": 225,
+      "required": 3850,
+      "step": 5
+    },
+    "expected": {
+      "threshold": 165,
+      "entry_pressure": 60,
+      "entry_quantity": 1440,
+      "retained": 3960,
+      "surplus": 110
+    }
+  },
+  {
+    "id": "GAS-Q017",
+    "path": "questions/gas/insufficient-starting-inventory.md",
+    "kind": "retention",
+    "inputs": {
+      "volume": 12,
+      "start": 230,
+      "required": 2900,
+      "step": 1
+    },
+    "expected": {
+      "starting": 2760,
+      "threshold": 242,
+      "shortage": 140,
+      "feasible": false
+    }
+  },
+  {
+    "id": "GAS-Q018",
+    "path": "questions/gas/equal-team-matching.md",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        24
+      ],
+      "starts": [
+        225,
+        225
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5400,
+        5400
+      ],
+      "demands": [
+        1800,
+        1800
+      ],
+      "combined": 3600,
+      "thresholds": [
+        150,
+        150
+      ],
+      "entry_pressures": [
+        75,
+        75
+      ],
+      "entry_quantities": [
+        1800,
+        1800
+      ],
+      "retained": [
+        3600,
+        3600
+      ],
+      "surpluses": [
+        0,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "id": "GAS-Q019",
+    "path": "questions/gas/additional-demand-check.md",
+    "kind": "revised_demand",
+    "inputs": {
+      "volume": 20,
+      "start": 240,
+      "old_retained": 3200,
+      "required": 3600
+    },
+    "expected": {
+      "shortage": 400,
+      "threshold": 180,
+      "entry_pressure": 60,
+      "entry_quantity": 1200
+    }
+  },
+  {
+    "id": "GAS-Q020",
+    "path": "questions/gas/unequal-pressure-matching.md",
+    "kind": "common_matching",
+    "inputs": {
+      "volume": 24,
+      "starts": [
+        225,
+        195
+      ],
+      "entry_step": 1
+    },
+    "expected": {
+      "allowance_pressure": 65,
+      "allowance_quantity": 1560,
+      "thresholds": [
+        160,
+        130
+      ],
+      "combined": 3120,
+      "retained": [
+        3840,
+        3120
+      ],
+      "surpluses": [
+        720,
+        0
+      ]
+    }
+  },
+  {
+    "id": "GAS-Q021",
+    "path": "questions/gas/common-allowance-rounding.md",
+    "kind": "common_matching",
+    "inputs": {
+      "volume": 20,
+      "starts": [
+        238,
+        212
+      ],
+      "entry_step": 5
+    },
+    "expected": {
+      "allowance_pressure": 70,
+      "allowance_quantity": 1400,
+      "thresholds": [
+        168,
+        142
+      ],
+      "combined": 2800,
+      "retained": [
+        3360,
+        2840
+      ],
+      "surpluses": [
+        560,
+        40
+      ]
+    }
+  },
+  {
+    "id": "GAS-Q022",
+    "path": "questions/gas/unequal-capacity-matching.md",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        20
+      ],
+      "starts": [
+        240,
+        240
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5760,
+        4800
+      ],
+      "demands": [
+        1920,
+        1600
+      ],
+      "combined": 3520,
+      "initial_retained": [
+        3840,
+        3200
+      ],
+      "initial_shortages": [
+        0,
+        320
+      ],
+      "thresholds": [
+        160,
+        176
+      ],
+      "entry_pressures": [
+        80,
+        64
+      ],
+      "entry_quantities": [
+        1920,
+        1280
+      ],
+      "retained": [
+        3840,
+        3520
+      ],
+      "surpluses": [
+        320,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "id": "GAS-Q023",
+    "path": "questions/gas/unequal-capacity-rounded-threshold.md",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        18
+      ],
+      "starts": [
+        225,
+        225
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5400,
+        4050
+      ],
+      "demands": [
+        1800,
+        1350
+      ],
+      "combined": 3150,
+      "thresholds": [
+        150,
+        175
+      ],
+      "entry_pressures": [
+        75,
+        50
+      ],
+      "entry_quantities": [
+        1800,
+        900
+      ],
+      "retained": [
+        3600,
+        3150
+      ],
+      "surpluses": [
+        450,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "id": "GAS-Q024",
+    "path": "questions/gas/mixed-capacity-pressure-matching.md",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        20
+      ],
+      "starts": [
+        210,
+        240
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5040,
+        4800
+      ],
+      "demands": [
+        1680,
+        1600
+      ],
+      "combined": 3280,
+      "thresholds": [
+        140,
+        164
+      ],
+      "entry_pressures": [
+        70,
+        76
+      ],
+      "entry_quantities": [
+        1680,
+        1520
+      ],
+      "retained": [
+        3360,
+        3280
+      ],
+      "surpluses": [
+        80,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "id": "GAS-Q025",
+    "path": "questions/gas/mixed-smaller-donor.md",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        18,
+        24
+      ],
+      "starts": [
+        180,
+        225
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        3240,
+        5400
+      ],
+      "demands": [
+        1080,
+        1800
+      ],
+      "combined": 2880,
+      "thresholds": [
+        160,
+        150
+      ],
+      "entry_pressures": [
+        20,
+        75
+      ],
+      "entry_quantities": [
+        360,
+        1800
+      ],
+      "retained": [
+        2880,
+        3600
+      ],
+      "surpluses": [
+        0,
+        720
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "id": "GAS-Q026",
+    "path": "questions/gas/cumulative-matching-worksheet.md",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        20
+      ],
+      "starts": [
+        225,
+        240
+      ],
+      "step": 5
+    },
+    "expected": {
+      "inventories": [
+        5400,
+        4800
+      ],
+      "demands": [
+        1800,
+        1600
+      ],
+      "combined": 3400,
+      "thresholds": [
+        150,
+        170
+      ],
+      "entry_pressures": [
+        75,
+        70
+      ],
+      "entry_quantities": [
+        1800,
+        1400
+      ],
+      "retained": [
+        3600,
+        3400
+      ],
+      "surpluses": [
+        200,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "id": "GAS-Q027",
+    "path": "questions/gas/cumulative-insufficient-donor.md",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        12
+      ],
+      "starts": [
+        240,
+        180
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5760,
+        2160
+      ],
+      "demands": [
+        1920,
+        720
+      ],
+      "combined": 2640,
+      "thresholds": [
+        160,
+        220
+      ],
+      "shortages": [
+        0,
+        480
+      ],
+      "feasible": false
+    }
+  }
+]
