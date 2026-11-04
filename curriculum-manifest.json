@@ -1,0 +1,124 @@
+{
+  "status": "draft",
+  "entries": [
+    {
+      "knowledge_id": "FND-001",
+      "knowledge_path": "knowledge/foundations/competence-boundaries.md",
+      "question_id": "FND-Q001",
+      "question_path": "questions/foundations/competence-boundaries.md",
+      "issue": 2
+    },
+    {
+      "knowledge_id": "FND-002",
+      "knowledge_path": "knowledge/foundations/environment-change.md",
+      "question_id": "FND-Q002",
+      "question_path": "questions/foundations/environment-change.md",
+      "issue": 2
+    },
+    {
+      "knowledge_id": "EQP-001",
+      "knowledge_path": "knowledge/equipment/buoyancy-trim-propulsion.md",
+      "question_id": "EQP-Q001",
+      "question_path": "questions/equipment/buoyancy-trim-propulsion.md",
+      "issue": 3
+    },
+    {
+      "knowledge_id": "EQP-002",
+      "knowledge_path": "knowledge/equipment/functional-redundancy.md",
+      "question_id": "EQP-Q002",
+      "question_path": "questions/equipment/functional-redundancy.md",
+      "issue": 3
+    },
+    {
+      "knowledge_id": "NAV-002",
+      "knowledge_path": "knowledge/navigation/markers-and-evidence.md",
+      "question_id": "NAV-Q002",
+      "question_path": "questions/navigation/markers-and-evidence.md",
+      "issue": 4
+    },
+    {
+      "knowledge_id": "NAV-003",
+      "knowledge_path": "knowledge/navigation/connections-and-decisions.md",
+      "question_id": "NAV-Q003",
+      "question_path": "questions/navigation/connections-and-decisions.md",
+      "issue": 4
+    },
+    {
+      "knowledge_id": "PLN-001",
+      "knowledge_path": "knowledge/planning/limits-and-briefing.md",
+      "question_id": "PLN-Q001",
+      "question_path": "questions/planning/limits-and-briefing.md",
+      "issue": 5
+    },
+    {
+      "knowledge_id": "PLN-002",
+      "knowledge_path": "knowledge/planning/communication-and-workload.md",
+      "question_id": "PLN-Q002",
+      "question_path": "questions/planning/communication-and-workload.md",
+      "issue": 5
+    },
+    {
+      "knowledge_id": "GAS-001",
+      "knowledge_path": "knowledge/gas/pressure-and-consumption.md",
+      "question_id": "GAS-Q001",
+      "question_path": "questions/gas/pressure-and-consumption.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "GAS-002",
+      "knowledge_path": "knowledge/gas/reserves-and-team-demand.md",
+      "question_id": "GAS-Q002",
+      "question_path": "questions/gas/reserves-and-team-demand.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "GAS-003",
+      "knowledge_path": "knowledge/gas/oxygen-and-gas-identity.md",
+      "question_id": "GAS-Q003",
+      "question_path": "questions/gas/oxygen-and-gas-identity.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "DEC-001",
+      "knowledge_path": "knowledge/physiology/models-and-risk.md",
+      "question_id": "DEC-Q001",
+      "question_path": "questions/physiology/models-and-risk.md",
+      "issue": 7
+    },
+    {
+      "knowledge_id": "EMR-001",
+      "knowledge_path": "knowledge/emergencies/stress-and-capacity.md",
+      "question_id": "EMR-Q001",
+      "question_path": "questions/emergencies/stress-and-capacity.md",
+      "issue": 7
+    },
+    {
+      "knowledge_id": "ENV-001",
+      "knowledge_path": "knowledge/environment/incident-learning.md",
+      "question_id": "ENV-Q001",
+      "question_path": "questions/environment/incident-learning.md",
+      "issue": 8
+    },
+    {
+      "knowledge_id": "ENV-002",
+      "knowledge_path": "knowledge/environment/survey-and-conservation.md",
+      "question_id": "ENV-Q002",
+      "question_path": "questions/environment/survey-and-conservation.md",
+      "issue": 8
+    },
+    {
+      "knowledge_id": "RES-001",
+      "knowledge_path": "knowledge/resources/checklists-devices-logs.md",
+      "question_id": "RES-Q001",
+      "question_path": "questions/resources/checklists-devices-logs.md",
+      "issue": 9
+    },
+    {
+      "knowledge_id": "AI-001",
+      "knowledge_path": "knowledge/interoperability/evidence-and-review-status.md",
+      "question_id": "AI-Q001",
+      "question_path": "questions/interoperability/evidence-and-review-status.md",
+      "issue": 10
+    }
+  ]
+}
