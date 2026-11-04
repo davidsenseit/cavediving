@@ -4,7 +4,7 @@ title: Gas percentage is not partial pressure
 type: knowledge
 topic: gas
 status: draft
-version: 0.2.0
+version: 0.3.0
 ---
 
 # Gas percentage is not partial pressure
@@ -26,3 +26,14 @@ A fraction is dimensionless; partial pressure has pressure units. For a fixed fr
 ## Check understanding
 
 What is wrong with subtracting surface pressure from an input already stated as absolute?
+
+## Learning objective
+Connect gas identity, partial pressure, depth and exposure without treating a calculation as approval.
+
+## A chain of checks
+Analysis establishes the measured oxygen fraction. Cylinder identification associates that analysis with a particular cylinder. The intended depth and selected exposure limit determine whether that gas is suitable within the applicable training. Computer settings must represent the gas actually breathed. A correct number at one link does not verify the others.
+
+Maximum operating depth (MOD) is derived from a selected oxygen partial-pressure limit and the analyzed fraction. Exposure duration matters as well as partial pressure. This lesson does not choose an exposure limit or authorize a gas switch. Use the applicable training and equipment procedures.
+
+## Compare cases
+A correctly labelled cylinder with the wrong computer setting creates a mismatch. A correctly configured computer does not establish that the cylinder was analyzed. Explain which evidence resolves each uncertainty.

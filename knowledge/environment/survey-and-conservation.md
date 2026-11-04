@@ -4,7 +4,7 @@ title: A survey is evidence with limits
 type: knowledge
 topic: environment
 status: draft
-version: 0.1.0
+version: 0.2.0
 ---
 
 # A survey is evidence with limits
@@ -21,3 +21,14 @@ A proposed survey adds work close to delicate sediment. Assess competence, permi
 ## Check understanding
 
 Explain the assumption most likely to make the example unsafe if ignored.
+
+## Learning objective
+Connect individual movement and project choices with environmental impact.
+
+## Why control protects more than visibility
+Sediment disturbance can reduce visibility for following teams as well as the diver creating it. Contact can damage fragile formations or habitats. A route or task that repeatedly requires contact needs reassessment; accepting damage because a team can still exit misses the conservation issue.
+
+Surface activities can also affect the site through waste, contaminants and disturbance. Permission and respectful access arrangements are part of planning, not merely administration.
+
+## Compare tasks
+A team can maintain position without contact during observation, but cannot do so while taking a measurement near a fragile feature. The additional task has changed the impact. Assess whether it should be deferred rather than assuming the original permission and skill assessment covers it.

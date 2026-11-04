@@ -2,7 +2,7 @@
 
 An AI-agnostic, English-language learning resource for cave diving. Use it with an AI assistant that can read this repository: ChatGPT, Claude, Codex, local agents, or other compatible tools.
 
-**Status: first curriculum draft.** There are 18 knowledge entries and 42 original questions, including the original scaffold and 24 applied scenarios. All learning content remains draft. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
+**Status: first curriculum draft.** There are 22 knowledge entries and 46 original questions, including the original scaffold and 24 applied scenarios. All learning content remains draft. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
 
 ## Start here
 
@@ -11,7 +11,7 @@ An AI-agnostic, English-language learning resource for cave diving. Use it with 
 3. Start the [course](learning/core-pathway.md): "Start the cave-diving course, one question at a time. Teach the concepts and explain after I answer."
 4. Continue from the last completed question in the current conversation, or choose a topic from the [catalog](catalog.md).
 
-The course has eight modules with 21 core questions and 20 optional practice questions. Ten revised questions are integrated into this order, with focused lessons, detailed feedback and reasoning prompts. The remaining question addresses AI-provider evaluation in a separate project appendix. All 42 authored questions remain available.
+The course has eight modules with 25 core questions and 20 optional practice questions. Ten revised questions are integrated into this order, with focused lessons, detailed feedback and reasoning prompts. The remaining question addresses AI-provider evaluation in a separate project appendix. All 46 authored questions remain available.
 
 ## Terminology
 
@@ -44,5 +44,6 @@ Expand independently authored, technically reviewed modules covering gas managem
 ## License note
 
 The repository includes an MIT license. That license covers material the contributors are entitled to license; it does not grant rights in third-party manuals, exams, figures or other protected works. Do not commit such materials without permission.
+
 
 

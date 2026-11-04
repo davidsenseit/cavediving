@@ -4,7 +4,7 @@ title: A message needs shared meaning practice
 type: question
 topic: planning
 status: draft
-version: 0.2.0
+version: 0.4.0
 knowledge_ids:
   - PLN-002
 ---
@@ -19,11 +19,17 @@ What best supports shared understanding?
 
 ## Choices
 
-A. Confidence that the gesture was clear.
+A. The sender saw the teammate turn toward the light.
 B. The agreed confirmation is received and understood.
-C. The teammate's light is expensive.
-D. The signal was repeated without any response.
+C. The teammate had correctly explained the signal during the briefing.
+D. The sender repeated the signal more slowly, without a response.
 
 ## Answer and explanation
 
-**B.** A recognizable confirmation provides evidence of receipt. Neither repeated transmission nor the sender's confidence establishes understanding.
+**B.** The agreed acknowledgement provides evidence that this message was received and understood. A establishes possible attention, not meaning. C establishes earlier knowledge, not receipt now. D repeats transmission without confirmation. Continue checking that team actions match the message.
+
+## Follow-up discussion
+The teammate acknowledges but then acts differently from the agreed meaning. What uncertainty remains?
+
+## Tutor guidance
+Look for recognition that an acknowledgement can be mistaken or ambiguous. Actual behaviour can reveal a mismatch; confirmation is evidence, not an infallible guarantee.

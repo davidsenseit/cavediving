@@ -48,3 +48,6 @@ Always prioritize a continuous, positively verified exit route, appropriate rese
 - Before any question, including direct topic selection, check that prerequisite concepts have been introduced. Teach unfamiliar concepts first. If that reveals the answer, use a different question afterward.
 - Distinguish terminology from local procedures. State relevant regional or training-convention differences and never treat an unfamiliar marker as the team's exit reference.
 - Respect `draft` and `verified` status in glossary definitions.
+
+## Lesson development
+Use explicit learning objectives, causal explanations, independently constructed examples and reasoning prompts. Integrate new lessons and questions into the existing pathway, manifest and catalog. Keep new or substantively changed learning content `draft` pending a new review. Publish independently written explanations and original illustrations; preserve the established procedural scope and terminology.

@@ -294,6 +294,34 @@
       "question_id": "RES-Q002",
       "question_path": "questions/resources/log-evidence-limits.md",
       "issue": 9
+    },
+    {
+      "knowledge_id": "NAV-004",
+      "knowledge_path": "knowledge/navigation/line-hazards.md",
+      "question_id": "NAV-Q009",
+      "question_path": "questions/navigation/line-hazards.md",
+      "issue": 4
+    },
+    {
+      "knowledge_id": "PLN-003",
+      "knowledge_path": "knowledge/planning/readiness-and-preparedness.md",
+      "question_id": "PLN-Q006",
+      "question_path": "questions/planning/readiness-and-preparedness.md",
+      "issue": 5
+    },
+    {
+      "knowledge_id": "EMR-002",
+      "knowledge_path": "knowledge/emergencies/distinguish-events.md",
+      "question_id": "EMR-Q004",
+      "question_path": "questions/emergencies/distinguish-events.md",
+      "issue": 7
+    },
+    {
+      "knowledge_id": "PHY-001",
+      "knowledge_path": "knowledge/physiology/breathing-and-workload.md",
+      "question_id": "PHY-Q001",
+      "question_path": "questions/physiology/breathing-and-workload.md",
+      "issue": 7
     }
   ],
   "course": {
@@ -332,7 +360,8 @@
         "question_ids": [
           "NAV-Q001",
           "NAV-Q002",
-          "NAV-Q003"
+          "NAV-Q003",
+          "NAV-Q009"
         ],
         "practice_question_ids": [
           "NAV-Q004",
@@ -365,7 +394,8 @@
         "question_ids": [
           "PLN-Q001",
           "PLN-Q002",
-          "PLN-Q003"
+          "PLN-Q003",
+          "PLN-Q006"
         ],
         "practice_question_ids": [
           "PLN-Q004",
@@ -377,7 +407,9 @@
         "title": "Physiology and emergency capacity",
         "question_ids": [
           "DEC-Q001",
-          "EMR-Q001"
+          "EMR-Q001",
+          "EMR-Q004",
+          "PHY-Q001"
         ],
         "practice_question_ids": [
           "EMR-Q002",
