@@ -25,7 +25,3 @@ D. The brightness of X prevents a common power failure.
 ## Answer and explanation
 
 **C.** A shared power failure removes both X-fed heads. A and B count components instead of independent survival; D substitutes output for reliability. The remaining lamp count alone does not establish adequate equipment for a dive.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

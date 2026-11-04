@@ -26,8 +26,3 @@ D. Use the time reserved for exit contingencies to reach the destination before 
 ## Answer and explanation
 
 **C.** Limits apply together; gas remaining does not cancel the agreed turnaround deadline. This deadline is not the maximum total dive time: the return must fit within the remaining plan. A and B let a gas allowance override a time limit; D spends contingency time on the optional objective.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.
-

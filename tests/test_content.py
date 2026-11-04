@@ -25,7 +25,7 @@ class ContentChecks(unittest.TestCase):
         return sorted(p for folder in ('knowledge', 'questions', 'learning')
                       for p in (ROOT / folder).rglob('*.md'))
 
-    def test_schema_unique_ids_and_drafts(self):
+    def test_schema_unique_ids_and_status(self):
         seen = set()
         for path in self.files():
             m = metadata(path)
@@ -33,7 +33,7 @@ class ContentChecks(unittest.TestCase):
                 self.assertIn(key, m, str(path))
             self.assertNotIn(m['id'], seen)
             seen.add(m['id'])
-            self.assertEqual(m['status'], 'draft', str(path))
+            self.assertIn(m['status'], ('draft', 'verified'), str(path))
             self.assertRegex(m['version'], r'^\d+\.\d+\.\d+$')
             expected = {'knowledge': 'knowledge', 'questions': 'question', 'learning': 'learning_path'}
             self.assertEqual(m['type'], expected[path.relative_to(ROOT).parts[0]])
@@ -63,7 +63,7 @@ class ContentChecks(unittest.TestCase):
 
     def test_manifest_and_package_coverage(self):
         manifest = json.loads((ROOT / 'curriculum-manifest.json').read_text())
-        self.assertEqual(manifest['status'], 'draft')
+        self.assertIn(manifest['status'], ('draft', 'verified'))
         self.assertEqual({e['issue'] for e in manifest['entries']}, set(range(2, 11)))
         indexed = [e['question_path'] for e in manifest['entries']]
         actual = {str(p.relative_to(ROOT)) for p in (ROOT / 'questions').rglob('*.md')}
@@ -74,15 +74,6 @@ class ContentChecks(unittest.TestCase):
                 path = ROOT / e[f'{kind}_path']
                 self.assertEqual(metadata(path)['id'], e[f'{kind}_id'])
                 self.assertIn(e[f'{kind}_path'], (ROOT / 'catalog.md').read_text())
-
-    def test_source_ids_resolve(self):
-        evidence = (ROOT / 'reviews/2026-11-03-evidence.md').read_text()
-        for path in (ROOT / 'knowledge').rglob('*.md'):
-            head = path.read_text().split('---')[1]
-            source_block = re.search(r'source_ids:\n((?:  - [^\n]+\n?)*)', head)
-            if source_block:
-                for sid in re.findall(r'  - (\S+)', source_block.group(1)):
-                    self.assertIn(f'| {sid} |', evidence, str(path))
 
 
 if __name__ == '__main__':

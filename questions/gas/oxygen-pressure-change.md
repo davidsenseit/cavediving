@@ -25,7 +25,3 @@ D. 3.30 bar and 4.30 bar.
 ## Answer and explanation
 
 **B.** Partial pressure is fraction × absolute pressure: 0.30 × 3 = 0.90 bar and 0.30 × 4 = 1.20 bar. A confuses fraction with partial pressure; C subtracts surface pressure from already absolute inputs; D adds unlike quantities. Suitability also requires exposure and training checks.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

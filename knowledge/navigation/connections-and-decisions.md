@@ -5,9 +5,6 @@ type: knowledge
 topic: navigation
 status: draft
 version: 0.2.1
-source_ids:
-  - DAN-LOWVIS
-  - GIBB-NAV
 ---
 
 # A connection and a route decision are different
@@ -26,9 +23,6 @@ In these entries, a jump is a temporary connection from a route line to a separa
 
 A side-passage line begins within sight of the main route. Its proximity does not establish continuity. The team must also distinguish its return direction from other branches and other teams' installations.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

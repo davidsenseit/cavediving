@@ -26,7 +26,3 @@ D. Suspend the optional task and restore team awareness and control before reass
 ## Answer and explanation
 
 **D.** Optional objectives must fit available attention. A adds workload; B normalizes missed safety tasks; C removes rather than restores the diver’s awareness. Any in-water response remains subject to the instructor and trained team procedures.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

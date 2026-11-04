@@ -27,8 +27,3 @@ D. Yes, if another diver carries an additional light.
 ## Answer and explanation
 
 **B.** Three working heads do not provide a primary and two separately powered backups in this arrangement. Each diver's independent lighting and usable duration must be assessed.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

@@ -40,4 +40,4 @@ With a fraction of 0.32 and 4 bar absolute ambient pressure, oxygen partial pres
 
 ## Validation boundary
 
-Run `python -m unittest discover -s tests -v`. Checks include exact/decimal recomputation, cylinder-size effects, invalid inputs and partial pressure. Independent expert review remains pending. There is no operational planner, range predictor, reserve optimizer or decompression engine in this change.
+Run `python -m unittest discover -s tests -v`. Checks include exact/decimal recomputation, cylinder-size effects, invalid inputs and partial pressure. There is no operational planner, range predictor, reserve optimizer or decompression engine in this change.

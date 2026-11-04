@@ -34,13 +34,6 @@ The allocation exercise uses two 10 L cylinders and two 12 L cylinders, both sta
 
 The fixed exit demands are assumptions supplied to the exercise. They are not inferred from a measured exit, and adjusting the entry allowance does not validate them. No route distance, actual reserve or operational planning tool is established.
 
-## Public factual checks
-
-Checked on 2026-11-04:
-
-- [DAN, Dive Safety: It's No Accident](https://dan.org/alert-diver/article/dive-safety-its-no-accident/) supports fractional gas allocation, agreed return points and more conservative responses to conditions. It does not validate this exercise's fixed demands or thresholds.
-- [DAN, Effective Use of Your Dive Computer](https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/use-of-dive-computers/) distinguishes model guidance from individual physiology and notes that displayed limits do not guarantee outcomes. Existing source IDs and the [evidence register](2026-11-03-evidence.md) remain applicable.
-- Time terminology and question wording are editorial clarifications. Numerical statements are algebra under stated assumptions, not an external certification standard.
 
 ## Validation and review limits
 
@@ -48,4 +41,4 @@ Command: `python -m unittest discover -s tests -v`.
 
 Result: 16 tests passed locally on 2026-11-04. `git diff --check` also passed. These results do not assert that GitHub Actions or independent expert review has run.
 
-All learning content remains draft. Independent competent review must examine the fixed-demand assumptions, donor access, margins, pressure interpretation, wording and applicability before any status promotion. Automated checks establish numerical and structural consistency only.
+All learning content remains draft.

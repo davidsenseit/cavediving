@@ -27,7 +27,3 @@ D. Past experience in the earlier configuration, without proving present suitabi
 ## Answer and explanation
 
 **D.** The earlier visit is relevant but limited evidence. A generalizes passage fit; B assumes failure-response capability; C ignores changed equipment, tasks and conditions. Assess the actual configuration and training before committing to the proposed dive.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

@@ -26,7 +26,3 @@ D. That duration can be inferred from the number of lights packed.
 ## Answer and explanation
 
 **B.** A brief function check does not measure endurance or usable access. A and C infer duration without evidence; D infers it from count. Verify the configuration and contingency provision before entry; a packed backup is not automatically a suitable backup.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

@@ -27,8 +27,3 @@ D. Their cameras can record the route.
 ## Answer and explanation
 
 **C.** The equipment and view do not supply the missing training. Overhead readiness must be assessed for the actual dive, rather than inferred from open-water experience.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

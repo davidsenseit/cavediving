@@ -26,7 +26,3 @@ D. 3,960 L.
 ## Answer and explanation
 
 **A.** 44 × 3 × (11 + 4) = 1,980 L. B omits the pressure ratio; C excludes the delay; D counts the pair twice even though 44 L/min is already combined. This is demand arithmetic only: it supplies neither an adequate reserve nor a realistic emergency rate for a real team.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

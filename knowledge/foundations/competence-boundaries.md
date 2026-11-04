@@ -5,8 +5,6 @@ type: knowledge
 topic: foundations
 status: draft
 version: 0.1.0
-source_ids:
-  - DAN-CAVE
 ---
 
 # Competence is specific to the task
@@ -19,9 +17,6 @@ Certification records training; it does not prove readiness for every cave, conf
 
 A familiar open-water buddy proposes entering a cave because both divers have redundant lights. Equipment does not supply the missing overhead training.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

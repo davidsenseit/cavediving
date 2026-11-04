@@ -5,9 +5,6 @@ type: knowledge
 topic: planning
 status: draft
 version: 0.1.0
-source_ids:
-  - CDG-TEAM
-  - EDITORIAL-REASONING
 ---
 
 # A message needs shared meaning
@@ -20,9 +17,6 @@ A gesture is useful only if the receiver can perceive and interpret it. Confirm 
 
 A photographer repeatedly misses a teammate’s communication. Treat this as a workload and communication problem, not proof that the message was understood.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

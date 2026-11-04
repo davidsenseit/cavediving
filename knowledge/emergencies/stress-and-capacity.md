@@ -5,9 +5,6 @@ type: knowledge
 topic: emergencies
 status: draft
 version: 0.1.0
-source_ids:
-  - CDG-TRAINING
-  - EDITORIAL-REASONING
 ---
 
 # Plan around reduced capacity
@@ -20,9 +17,6 @@ Failures may add tasks while reducing visibility, mobility or communication. Do 
 
 A dry briefing sounds fluent but the team has not practiced the proposed equipment response. That is a capability gap, not a wording problem.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

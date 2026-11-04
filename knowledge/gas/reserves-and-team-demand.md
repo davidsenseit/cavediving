@@ -5,9 +5,6 @@ type: knowledge
 topic: gas
 status: draft
 version: 0.3.0
-source_ids:
-  - DAN-THIRDS
-  - ALGEBRA
 ---
 
 # Compare available gas with the actual demand model
@@ -60,11 +57,8 @@ The team turns when A reaches 176 bar, B reaches 160 bar, or another applicable 
 
 The entry allowance changes, while the stipulated exit-demand bounds remain fixed. This is a limited allocation calculation, not a method for predicting penetration distance or optimizing a turn time. Recalculate actual exit demand for the proposed route and failure; do not infer it from a fraction of starting gas. Unequal breathing rates, stress, delay, current, depth changes, decompression, unusable residual gas and delivery limitations can require more gas or an earlier turn. Applicable training restrictions still govern. Passing these two supply checks does not establish a safe real-world reserve.
 
-See the [separate arithmetic review](../../reviews/2026-11-04-clarity-and-gas.md) for recomputation and remaining review requirements.
+See the [separate arithmetic review](../../reviews/2026-11-04-clarity-and-gas.md) for recomputation.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

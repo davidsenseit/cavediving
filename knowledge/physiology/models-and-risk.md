@@ -5,9 +5,6 @@ type: knowledge
 topic: physiology
 status: draft
 version: 0.2.0
-source_ids:
-  - DAN-COMPUTER
-  - DAN-DCI
 ---
 
 # A dive computer models decompression, not individual safety
@@ -20,9 +17,6 @@ A dive computer uses recorded depth, time, configured gases and model settings t
 
 Two divers complete a similar profile; one feels unwell. Matching displays do not rule out a medical problem.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

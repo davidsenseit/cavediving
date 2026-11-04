@@ -27,8 +27,3 @@ D. Infer configuration from the computer’s brand.
 ## Answer and explanation
 
 **B.** Version, mode and matching instructions are necessary context. Attached release notes do not prove an update occurred. Do not invent menu steps when the relevant documentation is missing.
-
-## Review note
-
-Original authored practice, awaiting independent subject review. Withhold this answer until the learner responds. Quiz performance does not demonstrate field competence.
-

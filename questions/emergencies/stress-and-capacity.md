@@ -27,8 +27,3 @@ D. A confident prediction from the team leader.
 ## Answer and explanation
 
 **C.** Demonstrated performance provides practical evidence that explanation and confidence do not. It still does not guarantee success during a real failure.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

@@ -25,7 +25,3 @@ D. Gas in an inaccessible cylinder can be added to remove the deficit.
 ## Answer and explanation
 
 **C.** A percentage allocation cannot resolve an identified supply deficit. B removes the donor’s own breathing requirement; D counts unavailable gas. Revisit assumptions and limits with competent human review rather than treating a fraction as operational validation.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

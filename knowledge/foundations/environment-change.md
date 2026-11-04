@@ -5,9 +5,6 @@ type: knowledge
 topic: foundations
 status: draft
 version: 0.1.0
-source_ids:
-  - DAN-CAVE
-  - DAN-LOWVIS
 ---
 
 # Conditions change the return problem
@@ -20,9 +17,6 @@ Flow, visibility and passage geometry affect both entry and exit. An easy inward
 
 A team has only last season’s description of a passage. Its first decision is whether current information is sufficient, not how to reach the previous distance.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

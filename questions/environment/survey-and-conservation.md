@@ -27,8 +27,3 @@ D. The recorded geometry and observations within the survey's stated limits.
 ## Answer and explanation
 
 **D.** Present access, permissions and route conditions require separate evidence. A survey does not authorize the proposed activity.
-
-## Review note
-
-Original draft practice; independent subject review remains pending. Present the question and choices first, withholding this explanation until the learner responds. The response does not establish practical competence.
-

@@ -25,7 +25,3 @@ D. Both divers have identical volume consumption because their pressure rates ma
 ## Answer and explanation
 
 **B.** The respective reference-volume rates are 16 × 1 / 2 = 8 L/min and 24 × 1 / 2 = 12 L/min. A confuses pressure with volume; C omits ambient-pressure normalization; D ignores cylinder size. These measured rates do not establish emergency demand.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

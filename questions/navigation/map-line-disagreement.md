@@ -26,7 +26,3 @@ D. The map does not resolve present continuity; the route needs current verifica
 ## Answer and explanation
 
 **D.** A survey records observations rather than guaranteeing present installations. A treats recorded information as current proof; B substitutes heading for continuity; C makes an unsupported distance exception. A map is useful evidence with limits.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

@@ -26,7 +26,3 @@ D. Resolve and verify the actual gas identity and appropriate settings before pr
 ## Answer and explanation
 
 **D.** A disagreement is unresolved information, not a choice of the more convenient number. A and B trust an unverified record; C assumes a capability that has not been established. Analysis, identification, labeling and device checks must agree under applicable training.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

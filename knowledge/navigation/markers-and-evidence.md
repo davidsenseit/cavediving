@@ -5,8 +5,6 @@ type: knowledge
 topic: navigation
 status: draft
 version: 0.1.1
-source_ids:
-  - GIBB-NAV
 ---
 
 # Markers need context and ownership
@@ -25,9 +23,6 @@ A line marker is the broader category. A REM (referencing exit marker) records a
 
 An unfamiliar directional arrow points away from the team’s recorded exit direction. Do not reinterpret the team route solely to match the arrow. Resolve navigation against the continuous verified route and trained procedures.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

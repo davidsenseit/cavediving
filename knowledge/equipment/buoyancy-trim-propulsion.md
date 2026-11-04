@@ -5,8 +5,6 @@ type: knowledge
 topic: equipment
 status: draft
 version: 0.1.0
-source_ids:
-  - CDG-TEAM
 ---
 
 # Control position before adding tasks
@@ -19,9 +17,6 @@ Buoyancy concerns vertical balance; trim concerns body orientation. A diver can 
 
 A diver holds depth during a camera task but repeatedly clouds the floor. A stable depth trace alone misses the propulsion and trim problem.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

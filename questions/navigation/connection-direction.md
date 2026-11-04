@@ -26,7 +26,3 @@ D. That the destination of the second line has been verified.
 ## Answer and explanation
 
 **C.** Continuity and route selection are distinct questions. A assumes equivalent branches; B discards identification; D treats a connection as destination evidence. A complete route review must establish both continuity and an unambiguous way back.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

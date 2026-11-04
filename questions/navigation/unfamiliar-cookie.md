@@ -25,7 +25,3 @@ D. The rule becomes reliable if the cookie is a bright color.
 ## Answer and explanation
 
 **B.** Shape alone gives a nondirectional cookie no left/right instruction. A invents an exit guarantee; C invents ownership; D assigns direction to color. Confirm local conventions and team meaning instead of importing a universal rule.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

@@ -5,10 +5,6 @@ type: knowledge
 topic: gas
 status: draft
 version: 0.3.0
-source_ids:
-  - DAN-GAS
-  - DAN-DEMAND
-  - ALGEBRA
 ---
 
 # Use absolute pressure and explicit units
@@ -48,9 +44,6 @@ The constant-pressure shortcut needs care when pressure varies. With approximate
 
 If breathing demand also changes, this calculation gives a pressure-weighted estimate rather than necessarily the diver's time-average surface-normalized rate. Gas used for buoyancy or other purposes also affects an estimate made from cylinder pressure loss. Use appropriate segment data and state what the record includes.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 

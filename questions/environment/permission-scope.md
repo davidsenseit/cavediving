@@ -25,7 +25,3 @@ D. A useful survey objective overrides conservation requirements.
 ## Answer and explanation
 
 **A.** Permission has scope. Obtain the relevant authorization and assess conservation effects before adding activities. B broadens permission without evidence; C invents an exemption; D ranks the objective above access and protection requirements.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

@@ -26,7 +26,3 @@ D. A quiz pass confirming the procedure can be recalled.
 ## Answer and explanation
 
 **C.** Being able to explain a task does not demonstrate its execution. A and D add descriptive evidence only; B replaces an access check with confidence. Address the capability gap through suitable training rather than discovering it during a real emergency.
-
-## Review note
-
-Draft; independent subject review remains pending. Withhold the answer and explanation until the learner responds. Quiz performance does not establish practical competence.

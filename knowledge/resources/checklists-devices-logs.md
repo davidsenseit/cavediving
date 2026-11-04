@@ -5,9 +5,6 @@ type: knowledge
 topic: resources
 status: draft
 version: 0.1.0
-source_ids:
-  - SHEARWATER-LOCAL
-  - EDITORIAL-REASONING
 ---
 
 # A packing list is not a functional check
@@ -20,9 +17,6 @@ Keep packing completeness, functional readiness and team planning distinct. Owni
 
 A recreational-mode manual corresponding to firmware V91 and release notes for another version are available. Neither establishes the device’s currently installed firmware or supplies the missing technical-mode guidance.
 
-## Limits and review
-
-Draft learning material; source checking is not expert approval. This entry is not a field procedure or a dive authorization. See [evidence and open questions](../../reviews/2026-11-03-evidence.md).
 
 ## Check understanding
 
