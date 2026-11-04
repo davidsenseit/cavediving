@@ -322,6 +322,150 @@
       "question_id": "PHY-Q001",
       "question_path": "questions/physiology/breathing-and-workload.md",
       "issue": 7
+    },
+    {
+      "knowledge_id": "GAS-004",
+      "knowledge_path": "knowledge/gas/cylinder-size-and-gas-quantity.md",
+      "question_id": "GAS-Q010",
+      "question_path": "questions/gas/identify-twinset-inventory.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-004",
+      "knowledge_path": "knowledge/gas/cylinder-size-and-gas-quantity.md",
+      "question_id": "GAS-Q011",
+      "question_path": "questions/gas/separate-cylinder-readings.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-005",
+      "knowledge_path": "knowledge/gas/bar-and-reference-litres.md",
+      "question_id": "GAS-Q012",
+      "question_path": "questions/gas/used-and-remaining-quantity.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-005",
+      "knowledge_path": "knowledge/gas/bar-and-reference-litres.md",
+      "question_id": "GAS-Q013",
+      "question_path": "questions/gas/convert-quantity-to-pressure.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-006",
+      "knowledge_path": "knowledge/gas/sixths-and-thirds.md",
+      "question_id": "GAS-Q014",
+      "question_path": "questions/gas/sixths-allocation.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-006",
+      "knowledge_path": "knowledge/gas/sixths-and-thirds.md",
+      "question_id": "GAS-Q015",
+      "question_path": "questions/gas/compare-sixths-and-thirds.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-007",
+      "knowledge_path": "knowledge/gas/turn-pressure-and-rounding.md",
+      "question_id": "GAS-Q016",
+      "question_path": "questions/gas/round-retained-pressure.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-007",
+      "knowledge_path": "knowledge/gas/turn-pressure-and-rounding.md",
+      "question_id": "GAS-Q017",
+      "question_path": "questions/gas/insufficient-starting-inventory.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-008",
+      "knowledge_path": "knowledge/gas/matching-equal-configurations.md",
+      "question_id": "GAS-Q018",
+      "question_path": "questions/gas/equal-team-matching.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-008",
+      "knowledge_path": "knowledge/gas/matching-equal-configurations.md",
+      "question_id": "GAS-Q019",
+      "question_path": "questions/gas/additional-demand-check.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-009",
+      "knowledge_path": "knowledge/gas/matching-different-starting-pressures.md",
+      "question_id": "GAS-Q020",
+      "question_path": "questions/gas/unequal-pressure-matching.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-009",
+      "knowledge_path": "knowledge/gas/matching-different-starting-pressures.md",
+      "question_id": "GAS-Q021",
+      "question_path": "questions/gas/common-allowance-rounding.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-010",
+      "knowledge_path": "knowledge/gas/matching-different-cylinder-sizes.md",
+      "question_id": "GAS-Q022",
+      "question_path": "questions/gas/unequal-capacity-matching.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-010",
+      "knowledge_path": "knowledge/gas/matching-different-cylinder-sizes.md",
+      "question_id": "GAS-Q023",
+      "question_path": "questions/gas/unequal-capacity-rounded-threshold.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-011",
+      "knowledge_path": "knowledge/gas/matching-mixed-capacities-and-pressures.md",
+      "question_id": "GAS-Q024",
+      "question_path": "questions/gas/mixed-capacity-pressure-matching.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-011",
+      "knowledge_path": "knowledge/gas/matching-mixed-capacities-and-pressures.md",
+      "question_id": "GAS-Q025",
+      "question_path": "questions/gas/mixed-smaller-donor.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-011",
+      "knowledge_path": "knowledge/gas/matching-mixed-capacities-and-pressures.md",
+      "question_id": "GAS-Q026",
+      "question_path": "questions/gas/cumulative-matching-worksheet.md",
+      "issue": 6,
+      "development_issue": 20
+    },
+    {
+      "knowledge_id": "GAS-011",
+      "knowledge_path": "knowledge/gas/matching-mixed-capacities-and-pressures.md",
+      "question_id": "GAS-Q027",
+      "question_path": "questions/gas/cumulative-insufficient-donor.md",
+      "issue": 6,
+      "development_issue": 20
     }
   ],
   "course": {
@@ -375,6 +519,24 @@
         "id": "gas",
         "title": "Gas quantities and demand",
         "question_ids": [
+          "GAS-Q010",
+          "GAS-Q011",
+          "GAS-Q012",
+          "GAS-Q013",
+          "GAS-Q014",
+          "GAS-Q015",
+          "GAS-Q016",
+          "GAS-Q017",
+          "GAS-Q018",
+          "GAS-Q019",
+          "GAS-Q020",
+          "GAS-Q021",
+          "GAS-Q022",
+          "GAS-Q023",
+          "GAS-Q024",
+          "GAS-Q025",
+          "GAS-Q026",
+          "GAS-Q027",
           "GAS-Q001",
           "GAS-Q004",
           "GAS-Q002",
@@ -386,6 +548,100 @@
           "GAS-Q005",
           "GAS-Q007",
           "GAS-Q009"
+        ],
+        "learning_path": "learning/gas-calculations.md",
+        "stages": [
+          {
+            "id": "gas-stage-1",
+            "knowledge_ids": [
+              "GAS-004"
+            ],
+            "question_ids": [
+              "GAS-Q010",
+              "GAS-Q011"
+            ]
+          },
+          {
+            "id": "gas-stage-2",
+            "knowledge_ids": [
+              "GAS-005"
+            ],
+            "question_ids": [
+              "GAS-Q012",
+              "GAS-Q013"
+            ]
+          },
+          {
+            "id": "gas-stage-3",
+            "knowledge_ids": [
+              "GAS-006"
+            ],
+            "question_ids": [
+              "GAS-Q014",
+              "GAS-Q015"
+            ]
+          },
+          {
+            "id": "gas-stage-4",
+            "knowledge_ids": [
+              "GAS-007"
+            ],
+            "question_ids": [
+              "GAS-Q016",
+              "GAS-Q017"
+            ]
+          },
+          {
+            "id": "gas-stage-5",
+            "knowledge_ids": [
+              "GAS-008"
+            ],
+            "question_ids": [
+              "GAS-Q018",
+              "GAS-Q019"
+            ]
+          },
+          {
+            "id": "gas-stage-6",
+            "knowledge_ids": [
+              "GAS-009"
+            ],
+            "question_ids": [
+              "GAS-Q020",
+              "GAS-Q021"
+            ]
+          },
+          {
+            "id": "gas-stage-7",
+            "knowledge_ids": [
+              "GAS-010"
+            ],
+            "question_ids": [
+              "GAS-Q022",
+              "GAS-Q023"
+            ]
+          },
+          {
+            "id": "gas-stage-8",
+            "knowledge_ids": [
+              "GAS-011"
+            ],
+            "question_ids": [
+              "GAS-Q024",
+              "GAS-Q025"
+            ]
+          },
+          {
+            "id": "gas-consolidation",
+            "knowledge_ids": [
+              "GAS-011",
+              "GAS-002"
+            ],
+            "question_ids": [
+              "GAS-Q026",
+              "GAS-Q027"
+            ]
+          }
         ]
       },
       {

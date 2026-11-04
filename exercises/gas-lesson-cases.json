@@ -1,0 +1,546 @@
+[
+  {
+    "lesson": "GAS-004",
+    "label": "Worked example",
+    "kind": "inventory",
+    "inputs": {
+      "volumes": [
+        10,
+        10
+      ],
+      "pressures": [
+        180,
+        180
+      ]
+    },
+    "expected": {
+      "water_volume": 20,
+      "quantity": 3600
+    }
+  },
+  {
+    "lesson": "GAS-004",
+    "label": "Guided calculation",
+    "kind": "inventory",
+    "inputs": {
+      "volumes": [
+        9,
+        9
+      ],
+      "pressures": [
+        200,
+        200
+      ]
+    },
+    "expected": {
+      "water_volume": 18,
+      "quantity": 3600
+    }
+  },
+  {
+    "lesson": "GAS-005",
+    "label": "Worked example",
+    "kind": "consumption",
+    "inputs": {
+      "volume": 24,
+      "start": 225,
+      "current": 175
+    },
+    "expected": {
+      "drop": 50,
+      "used": 1200,
+      "remaining": 4200,
+      "starting": 5400
+    }
+  },
+  {
+    "lesson": "GAS-005",
+    "label": "Guided calculation",
+    "kind": "consumption",
+    "inputs": {
+      "volume": 20,
+      "start": 220,
+      "current": 175
+    },
+    "expected": {
+      "drop": 45,
+      "used": 900,
+      "remaining": 3500,
+      "starting": 4400
+    }
+  },
+  {
+    "lesson": "GAS-006",
+    "label": "Worked comparison",
+    "kind": "fractions",
+    "inputs": {
+      "volume": 24,
+      "start": 240,
+      "denominators": [
+        6,
+        3
+      ]
+    },
+    "expected": {
+      "starting": 5760,
+      "entry_pressures": [
+        40,
+        80
+      ],
+      "entry_quantities": [
+        960,
+        1920
+      ],
+      "turn_pressures": [
+        200,
+        160
+      ],
+      "retained": [
+        4800,
+        3840
+      ]
+    }
+  },
+  {
+    "lesson": "GAS-006",
+    "label": "Guided calculation",
+    "kind": "fractions",
+    "inputs": {
+      "volume": 20,
+      "start": 210,
+      "denominators": [
+        6,
+        3
+      ]
+    },
+    "expected": {
+      "starting": 4200,
+      "entry_pressures": [
+        35,
+        70
+      ],
+      "entry_quantities": [
+        700,
+        1400
+      ],
+      "turn_pressures": [
+        175,
+        140
+      ],
+      "retained": [
+        3500,
+        2800
+      ]
+    }
+  },
+  {
+    "lesson": "GAS-007",
+    "label": "Worked allocation route",
+    "kind": "allowance_round",
+    "inputs": {
+      "volume": 24,
+      "start": 232,
+      "denominator": 3,
+      "entry_step": 5,
+      "retained_step": 5
+    },
+    "expected": {
+      "allowance_pressure": 75,
+      "intermediate_turn": 157,
+      "threshold": 160,
+      "entry_pressure": 72
+    }
+  },
+  {
+    "lesson": "GAS-007",
+    "label": "Worked retained-quantity route",
+    "kind": "retention",
+    "inputs": {
+      "volume": 20,
+      "start": 240,
+      "required": 3560,
+      "step": 5
+    },
+    "expected": {
+      "threshold": 180,
+      "entry_pressure": 60,
+      "entry_quantity": 1200,
+      "retained": 3600,
+      "surplus": 40
+    }
+  },
+  {
+    "lesson": "GAS-007",
+    "label": "Guided calculation",
+    "kind": "retention",
+    "inputs": {
+      "volume": 24,
+      "start": 230,
+      "required": 3720,
+      "step": 10
+    },
+    "expected": {
+      "threshold": 160,
+      "entry_pressure": 70,
+      "entry_quantity": 1680,
+      "retained": 3840,
+      "surplus": 120
+    }
+  },
+  {
+    "lesson": "GAS-008",
+    "label": "Worked example",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        24
+      ],
+      "starts": [
+        240,
+        240
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5760,
+        5760
+      ],
+      "demands": [
+        1920,
+        1920
+      ],
+      "combined": 3840,
+      "thresholds": [
+        160,
+        160
+      ],
+      "entry_quantities": [
+        1920,
+        1920
+      ],
+      "retained": [
+        3840,
+        3840
+      ],
+      "surpluses": [
+        0,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "lesson": "GAS-008",
+    "label": "Guided calculation",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        20,
+        20
+      ],
+      "starts": [
+        210,
+        210
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        4200,
+        4200
+      ],
+      "demands": [
+        1400,
+        1400
+      ],
+      "combined": 2800,
+      "thresholds": [
+        140,
+        140
+      ],
+      "entry_quantities": [
+        1400,
+        1400
+      ],
+      "retained": [
+        2800,
+        2800
+      ],
+      "surpluses": [
+        0,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "lesson": "GAS-009",
+    "label": "Worked example",
+    "kind": "common_matching",
+    "inputs": {
+      "volume": 24,
+      "starts": [
+        240,
+        210
+      ],
+      "entry_step": 1
+    },
+    "expected": {
+      "allowance_pressure": 70,
+      "allowance_quantity": 1680,
+      "thresholds": [
+        170,
+        140
+      ],
+      "combined": 3360,
+      "retained": [
+        4080,
+        3360
+      ],
+      "surpluses": [
+        720,
+        0
+      ]
+    }
+  },
+  {
+    "lesson": "GAS-009",
+    "label": "Guided calculation",
+    "kind": "common_matching",
+    "inputs": {
+      "volume": 20,
+      "starts": [
+        230,
+        180
+      ],
+      "entry_step": 1
+    },
+    "expected": {
+      "allowance_pressure": 60,
+      "allowance_quantity": 1200,
+      "thresholds": [
+        170,
+        120
+      ],
+      "combined": 2400,
+      "retained": [
+        3400,
+        2400
+      ],
+      "surpluses": [
+        1000,
+        0
+      ]
+    }
+  },
+  {
+    "lesson": "GAS-010",
+    "label": "Worked example",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        18
+      ],
+      "starts": [
+        240,
+        240
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5760,
+        4320
+      ],
+      "demands": [
+        1920,
+        1440
+      ],
+      "combined": 3360,
+      "initial_retained": [
+        3840,
+        2880
+      ],
+      "initial_shortages": [
+        0,
+        480
+      ],
+      "thresholds": [
+        160,
+        187
+      ],
+      "entry_pressures": [
+        80,
+        53
+      ],
+      "entry_quantities": [
+        1920,
+        954
+      ],
+      "retained": [
+        3840,
+        3366
+      ],
+      "surpluses": [
+        480,
+        6
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "lesson": "GAS-010",
+    "label": "Guided calculation",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        20
+      ],
+      "starts": [
+        210,
+        210
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5040,
+        4200
+      ],
+      "demands": [
+        1680,
+        1400
+      ],
+      "combined": 3080,
+      "initial_retained": [
+        3360,
+        2800
+      ],
+      "initial_shortages": [
+        0,
+        280
+      ],
+      "thresholds": [
+        140,
+        154
+      ],
+      "entry_pressures": [
+        70,
+        56
+      ],
+      "entry_quantities": [
+        1680,
+        1120
+      ],
+      "retained": [
+        3360,
+        3080
+      ],
+      "surpluses": [
+        280,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "lesson": "GAS-011",
+    "label": "Worked example",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        20
+      ],
+      "starts": [
+        230,
+        210
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5520,
+        4200
+      ],
+      "demands": [
+        1840,
+        1400
+      ],
+      "combined": 3240,
+      "thresholds": [
+        154,
+        162
+      ],
+      "entry_pressures": [
+        76,
+        48
+      ],
+      "entry_quantities": [
+        1824,
+        960
+      ],
+      "retained": [
+        3696,
+        3240
+      ],
+      "surpluses": [
+        456,
+        0
+      ],
+      "feasible": true
+    }
+  },
+  {
+    "lesson": "GAS-011",
+    "label": "Guided calculation",
+    "kind": "fixed_matching",
+    "inputs": {
+      "volumes": [
+        24,
+        18
+      ],
+      "starts": [
+        225,
+        240
+      ],
+      "step": 1
+    },
+    "expected": {
+      "inventories": [
+        5400,
+        4320
+      ],
+      "demands": [
+        1800,
+        1440
+      ],
+      "combined": 3240,
+      "thresholds": [
+        150,
+        180
+      ],
+      "entry_pressures": [
+        75,
+        60
+      ],
+      "entry_quantities": [
+        1800,
+        1080
+      ],
+      "retained": [
+        3600,
+        3240
+      ],
+      "surpluses": [
+        360,
+        0
+      ],
+      "feasible": true
+    }
+  }
+]

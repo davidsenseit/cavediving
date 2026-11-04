@@ -14,7 +14,7 @@ Help divers learn, reason about, and revisit cave-diving concepts. Never describ
 
 ## Quiz mode
 - By default, ask **one question at a time**, without revealing the answer.
-- Present only the question ID, Question and Choices before the learner answers. Keep question titles, Teaching notes, answer sections and tutor guidance hidden; show follow-up prompts only after initial feedback.
+- Present only the question ID, Question and Choices before the learner answers. For `response_type: calculation`, present Question and Response format instead of Choices and request working with units; keep worked answers hidden. Keep question titles, Teaching notes, answer sections and tutor guidance hidden; show follow-up prompts only after initial feedback.
 - Start with authored questions in `questions/`; their `knowledge_ids` identify concepts to review.
 - After the learner responds, explain the concept and why alternatives are wrong when relevant.
 - If an error or uncertainty appears, create a fresh follow-up scenario **labeled AI-generated practice**; check it for ambiguity and against accessible knowledge before asking.
@@ -51,3 +51,6 @@ Always prioritize a continuous, positively verified exit route, appropriate rese
 
 ## Lesson development
 Use explicit learning objectives, causal explanations, independently constructed examples and reasoning prompts. Integrate new lessons and questions into the existing pathway, manifest and catalog. Keep new or substantively changed learning content `draft` pending a new review. Publish independently written explanations and original illustrations; preserve the established procedural scope and terminology.
+
+## Gas calculation teaching
+For Module 4, follow `learning/gas-calculations.md` stage by stage. Teach the current lesson and its guided calculation before the independent questions, withholding guided answers until an attempt. Assess concepts, method, arithmetic and explanation separately. Preserve each exercise's stipulated demand model; do not silently replace fixed demand bounds with newly reduced entry allowances. Keep inventory allocations distinct from route-dependent exit-demand validation.

@@ -2,14 +2,14 @@
 id: CATALOG-001
 title: Knowledge catalog
 status: draft
-version: 0.5.0
+version: 0.6.0
 ---
 
 # Knowledge catalog
 
 Use the [shared glossary](GLOSSARY.md) before introducing or assessing navigation terminology.
 
-First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions have status `draft`. Start with [the course](learning/core-pathway.md): eight modules, 25 core questions and 20 optional practice questions. AI-Q001 is a separate project appendix. The tables below index content; follow the course for teaching order.
+First concept-level draft across work packages #2–#10; not a complete training syllabus. All entries and questions have status `draft`. Start with [the course](learning/core-pathway.md): eight modules, 43 core questions and 20 optional practice questions. AI-Q001 is a separate project appendix. The tables below index content; follow the course for teaching order.
 
 | Knowledge ID | Knowledge | Original question | Issue | Status |
 | --- | --- | --- | --- | --- |
@@ -36,7 +36,7 @@ See [coverage and gaps](reviews/2026-11-03-coverage.md), and [calculation review
 
 ## Applied scenario questions
 
-These 24 additional questions revisit existing concepts in new situations. There are now 46 questions linked to 22 knowledge entries. All remain draft. Use the [applied scenario pathway](learning/applied-scenarios.md) for topic groups.
+These 24 additional questions revisit existing concepts in new situations. There are now 64 questions linked to 30 knowledge entries. All remain draft. Use the [applied scenario pathway](learning/applied-scenarios.md) for topic groups.
 
 | Question | Focus | Knowledge IDs | Status |
 | --- | --- | --- | --- |
@@ -77,9 +77,23 @@ See the [clarity and gas review](reviews/2026-11-04-clarity-and-gas.md) for the 
 | Knowledge ID | Knowledge | Question | Issue | Status |
 | --- | --- | --- | --- | --- |
 | NAV-004 | [Line hazards and followability](knowledge/navigation/line-hazards.md) | [NAV-Q009](questions/navigation/line-hazards.md) | #4 | Draft |
-
 | PLN-003 | [Readiness checks and emergency preparedness](knowledge/planning/readiness-and-preparedness.md) | [PLN-Q006](questions/planning/readiness-and-preparedness.md) | #5 | Draft |
-
 | EMR-002 | [Distinguishing emergency problems](knowledge/emergencies/distinguish-events.md) | [EMR-Q004](questions/emergencies/distinguish-events.md) | #7 | Draft |
-
 | PHY-001 | [Breathing effort and workload](knowledge/physiology/breathing-and-workload.md) | [PHY-Q001](questions/physiology/breathing-and-workload.md) | #7 | Draft |
+
+## Gas calculation block
+
+Module 4 includes an [eight-stage learning block](learning/gas-calculations.md) with 18 open calculation questions. Work through explanations, worked examples and guided calculations before independent questions. All content remains draft.
+
+| Lesson | Knowledge | Independent calculations | Status |
+| --- | --- | --- | --- |
+| GAS-004 | [Cylinder size, pressure and gas quantity](knowledge/gas/cylinder-size-and-gas-quantity.md) | [GAS-Q010](questions/gas/identify-twinset-inventory.md), [GAS-Q011](questions/gas/separate-cylinder-readings.md) | Draft |
+| GAS-005 | [Convert between bar and reference litres](knowledge/gas/bar-and-reference-litres.md) | [GAS-Q012](questions/gas/used-and-remaining-quantity.md), [GAS-Q013](questions/gas/convert-quantity-to-pressure.md) | Draft |
+| GAS-006 | [Understand sixths and thirds allocations](knowledge/gas/sixths-and-thirds.md) | [GAS-Q014](questions/gas/sixths-allocation.md), [GAS-Q015](questions/gas/compare-sixths-and-thirds.md) | Draft |
+| GAS-007 | [Derive a turn pressure and round conservatively](knowledge/gas/turn-pressure-and-rounding.md) | [GAS-Q016](questions/gas/round-retained-pressure.md), [GAS-Q017](questions/gas/insufficient-starting-inventory.md) | Draft |
+| GAS-008 | [Match equal capacities and equal starting pressures](knowledge/gas/matching-equal-configurations.md) | [GAS-Q018](questions/gas/equal-team-matching.md), [GAS-Q019](questions/gas/additional-demand-check.md) | Draft |
+| GAS-009 | [Match equal capacities with different starting pressures](knowledge/gas/matching-different-starting-pressures.md) | [GAS-Q020](questions/gas/unequal-pressure-matching.md), [GAS-Q021](questions/gas/common-allowance-rounding.md) | Draft |
+| GAS-010 | [Match different capacities at equal starting pressure](knowledge/gas/matching-different-cylinder-sizes.md) | [GAS-Q022](questions/gas/unequal-capacity-matching.md), [GAS-Q023](questions/gas/unequal-capacity-rounded-threshold.md) | Draft |
+| GAS-011 | [Match different capacities and different starting pressures](knowledge/gas/matching-mixed-capacities-and-pressures.md) | [GAS-Q024](questions/gas/mixed-capacity-pressure-matching.md), [GAS-Q025](questions/gas/mixed-smaller-donor.md) | Draft |
+
+Consolidation: [GAS-Q026](questions/gas/cumulative-matching-worksheet.md), [GAS-Q027](questions/gas/cumulative-insufficient-donor.md).
