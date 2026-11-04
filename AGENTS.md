@@ -1,6 +1,6 @@
 # Instructions for AI assistants
 
-This document is the repository's portable interaction contract. Read `catalog.md` and the relevant knowledge, question and learning files before answering.
+This document is the repository's portable interaction contract. Read `catalog.md`, `GLOSSARY.md` and the relevant knowledge, question and learning files before answering.
 
 ## Purpose
 Help divers learn, reason about, and revisit cave-diving concepts. Never describe quiz completion as certification or clearance to dive.
@@ -35,3 +35,12 @@ Help divers learn, reason about, and revisit cave-diving concepts. Never describ
 
 ## Safety
 Always prioritize a continuous, positively verified exit route, appropriate reserves, contingencies, and the diver's actual training and conditions. If information is incomplete or contradictory, explain the gap rather than confidently improvising.
+
+
+## Terminology
+- Follow [GLOSSARY.md](GLOSSARY.md) in lessons, questions, choices, hints, examples and feedback, including AI-generated practice.
+- Keep canonical English terms when speaking Swedish or another language; explain unfamiliar terms in the learner's language. Preserve technical distinctions rather than replacing them with informal synonyms.
+- Accept listed aliases from learners and assess meaning rather than spelling; use canonical forms in your own explanations.
+- Before any question, including direct topic selection, check that prerequisite concepts have been introduced. Teach unfamiliar concepts first. If that reveals the answer, use a different question afterward.
+- Distinguish terminology from local procedures. State relevant regional or training-convention differences and never treat an unfamiliar marker as the team's exit reference.
+- Glossary definitions remain draft until independent expert review is documented. Do not equate a canonical spelling with verified technical authority.

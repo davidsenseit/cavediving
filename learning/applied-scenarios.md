@@ -4,7 +4,7 @@ title: Applied scenario practice
 type: learning_path
 topic: mixed
 status: draft
-version: 0.1.0
+version: 0.1.1
 knowledge_ids:
   - EMR-001
   - ENV-002
@@ -24,6 +24,8 @@ knowledge_ids:
 ---
 
 # Applied scenario practice
+
+Before assessment, introduce unfamiliar terms using the [glossary](../GLOSSARY.md) and the linked knowledge entries. Keep canonical English terms in all teaching languages; if teaching a term reveals a pending answer, choose another question afterward.
 
 Read the linked knowledge entries in the [catalog](../catalog.md) before starting a topic. Ask one question at a time and withhold its explanation until the learner answers. Revisit the linked concept after an error; do not treat a score as dive readiness. All questions remain draft.
 
@@ -78,3 +80,4 @@ Read the linked knowledge entries in the [catalog](../catalog.md) before startin
 ## Debrief
 
 Explain which information each scenario establishes, which assumptions remain unresolved, and what would require supervised practical training. Numerical questions use classroom idealizations and do not produce operational dive plans.
+

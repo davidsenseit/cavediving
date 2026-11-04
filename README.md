@@ -11,6 +11,10 @@ An AI-agnostic, English-language learning resource for cave diving. Use it with 
 3. Try: "Quiz me on guideline continuity, one question at a time. Explain after I answer."
 4. For a deeper explanation, ask: "Teach me knowledge item NAV-001, then challenge my understanding."
 
+## Terminology
+
+Follow the language-independent [glossary](GLOSSARY.md): keep canonical English cave-diving terms even when explanations are in Swedish or another language. Introduce unfamiliar concepts before assessment. Contributors must follow the [terminology guidance](governance/CONTRIBUTING.md#terminology). Technical definitions remain draft pending independent expert review.
+
 ## Structure
 
 - `AGENTS.md` — vendor-neutral behavior contract for assistants.
@@ -38,4 +42,5 @@ Expand independently authored, technically reviewed modules covering gas managem
 ## License note
 
 The repository includes an MIT license. That license covers material the contributors are entitled to license; it does not grant rights in third-party manuals, exams, figures or other protected works. Do not commit such materials without permission.
+
 
