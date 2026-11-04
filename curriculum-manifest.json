@@ -2,6 +2,13 @@
   "status": "draft",
   "entries": [
     {
+      "knowledge_id": "NAV-001",
+      "knowledge_path": "knowledge/navigation/guideline-continuity.md",
+      "question_id": "NAV-Q001",
+      "question_path": "questions/navigation/continuity.md",
+      "issue": 4
+    },
+    {
       "knowledge_id": "FND-001",
       "knowledge_path": "knowledge/foundations/competence-boundaries.md",
       "question_id": "FND-Q001",
@@ -119,6 +126,174 @@
       "question_id": "AI-Q001",
       "question_path": "questions/interoperability/evidence-and-review-status.md",
       "issue": 10
+    },
+    {
+      "knowledge_id": "GAS-001",
+      "knowledge_path": "knowledge/gas/pressure-and-consumption.md",
+      "question_id": "GAS-Q004",
+      "question_path": "questions/gas/pressure-rate-comparison.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "GAS-001",
+      "knowledge_path": "knowledge/gas/pressure-and-consumption.md",
+      "question_id": "GAS-Q005",
+      "question_path": "questions/gas/available-gas-comparison.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "GAS-001",
+      "knowledge_path": "knowledge/gas/pressure-and-consumption.md",
+      "question_id": "GAS-Q006",
+      "question_path": "questions/gas/exit-delay-demand.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "GAS-002",
+      "knowledge_path": "knowledge/gas/reserves-and-team-demand.md",
+      "question_id": "GAS-Q007",
+      "question_path": "questions/gas/allocation-versus-failure.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "GAS-003",
+      "knowledge_path": "knowledge/gas/oxygen-and-gas-identity.md",
+      "question_id": "GAS-Q008",
+      "question_path": "questions/gas/oxygen-pressure-change.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "GAS-003",
+      "knowledge_path": "knowledge/gas/oxygen-and-gas-identity.md",
+      "question_id": "GAS-Q009",
+      "question_path": "questions/gas/gas-identity-mismatch.md",
+      "issue": 6
+    },
+    {
+      "knowledge_id": "NAV-001",
+      "knowledge_path": "knowledge/navigation/guideline-continuity.md",
+      "question_id": "NAV-Q004",
+      "question_path": "questions/navigation/parallel-team-lines.md",
+      "issue": 4
+    },
+    {
+      "knowledge_id": "NAV-001",
+      "knowledge_path": "knowledge/navigation/guideline-continuity.md",
+      "question_id": "NAV-Q005",
+      "question_path": "questions/navigation/connection-direction.md",
+      "issue": 4
+    },
+    {
+      "knowledge_id": "NAV-002",
+      "knowledge_path": "knowledge/navigation/markers-and-evidence.md",
+      "question_id": "NAV-Q006",
+      "question_path": "questions/navigation/unfamiliar-cookie.md",
+      "issue": 4
+    },
+    {
+      "knowledge_id": "NAV-001",
+      "knowledge_path": "knowledge/navigation/guideline-continuity.md",
+      "question_id": "NAV-Q007",
+      "question_path": "questions/navigation/map-line-disagreement.md",
+      "issue": 4
+    },
+    {
+      "knowledge_id": "NAV-003",
+      "knowledge_path": "knowledge/navigation/connections-and-decisions.md",
+      "question_id": "NAV-Q008",
+      "question_path": "questions/navigation/nearby-line-end.md",
+      "issue": 4
+    },
+    {
+      "knowledge_id": "EQP-002",
+      "knowledge_path": "knowledge/equipment/functional-redundancy.md",
+      "question_id": "EQP-Q003",
+      "question_path": "questions/equipment/battery-failure-analysis.md",
+      "issue": 3
+    },
+    {
+      "knowledge_id": "EQP-002",
+      "knowledge_path": "knowledge/equipment/functional-redundancy.md",
+      "question_id": "EQP-Q004",
+      "question_path": "questions/equipment/backup-duration.md",
+      "issue": 3
+    },
+    {
+      "knowledge_id": "EQP-001",
+      "knowledge_path": "knowledge/equipment/buoyancy-trim-propulsion.md",
+      "question_id": "EQP-Q005",
+      "question_path": "questions/equipment/stationary-task-silt.md",
+      "issue": 3
+    },
+    {
+      "knowledge_id": "EQP-002",
+      "knowledge_path": "knowledge/equipment/functional-redundancy.md",
+      "question_id": "EQP-Q006",
+      "question_path": "questions/equipment/primary-light-loss.md",
+      "issue": 3
+    },
+    {
+      "knowledge_id": "PLN-001",
+      "knowledge_path": "knowledge/planning/limits-and-briefing.md",
+      "question_id": "PLN-Q003",
+      "question_path": "questions/planning/first-limit.md",
+      "issue": 5
+    },
+    {
+      "knowledge_id": "PLN-002",
+      "knowledge_path": "knowledge/planning/communication-and-workload.md",
+      "question_id": "PLN-Q004",
+      "question_path": "questions/planning/briefing-signal-disagreement.md",
+      "issue": 5
+    },
+    {
+      "knowledge_id": "PLN-002",
+      "knowledge_path": "knowledge/planning/communication-and-workload.md",
+      "question_id": "PLN-Q005",
+      "question_path": "questions/planning/task-priority.md",
+      "issue": 5
+    },
+    {
+      "knowledge_id": "EMR-001",
+      "knowledge_path": "knowledge/emergencies/stress-and-capacity.md",
+      "question_id": "EMR-Q002",
+      "question_path": "questions/emergencies/compound-demand.md",
+      "issue": 7
+    },
+    {
+      "knowledge_id": "EMR-001",
+      "knowledge_path": "knowledge/emergencies/stress-and-capacity.md",
+      "question_id": "EMR-Q003",
+      "question_path": "questions/emergencies/unpracticed-configuration.md",
+      "issue": 7
+    },
+    {
+      "knowledge_id": "FND-002",
+      "knowledge_path": "knowledge/foundations/environment-change.md",
+      "question_id": "FND-Q003",
+      "question_path": "questions/foundations/flow-return-asymmetry.md",
+      "issue": 2
+    },
+    {
+      "knowledge_id": "FND-001",
+      "knowledge_path": "knowledge/foundations/competence-boundaries.md",
+      "question_id": "FND-Q004",
+      "question_path": "questions/foundations/passage-configuration.md",
+      "issue": 2
+    },
+    {
+      "knowledge_id": "ENV-002",
+      "knowledge_path": "knowledge/environment/survey-and-conservation.md",
+      "question_id": "ENV-Q003",
+      "question_path": "questions/environment/permission-scope.md",
+      "issue": 8
+    },
+    {
+      "knowledge_id": "RES-001",
+      "knowledge_path": "knowledge/resources/checklists-devices-logs.md",
+      "question_id": "RES-Q002",
+      "question_path": "questions/resources/log-evidence-limits.md",
+      "issue": 9
     }
   ]
 }

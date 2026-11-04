@@ -2,7 +2,7 @@
 
 An AI-agnostic, English-language learning resource for cave diving. Use it with an AI assistant that can read this repository: ChatGPT, Claude, Codex, local agents, or other compatible tools.
 
-**Status: first curriculum draft.** There are 18 knowledge entries and 18 original questions, including the original scaffold. All learning content remains draft and has not received independent expert review. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
+**Status: first curriculum draft.** There are 18 knowledge entries and 42 original questions, including the original scaffold and 24 applied scenarios. All learning content remains draft and has not received independent expert review. This repository does not certify divers, replace supervised training, or provide an authoritative dive plan.
 
 ## Start here
 
@@ -28,6 +28,8 @@ All published learning content is in English. AI assistants may converse in the 
 Read the [coverage and gaps](reviews/2026-11-03-coverage.md), [evidence register](reviews/2026-11-03-evidence.md), [separate calculation review](reviews/2026-11-03-calculations.md) and [portability test protocol](reviews/interoperability-protocol.md). Follow the [core pathway](learning/core-pathway.md) or select a topic in the catalog.
 
 Run `python -m unittest discover -s tests -v` with Python 3.10 or newer; there are no third-party runtime dependencies. These checks establish structure and educational arithmetic only, not factual accuracy, practical competence or operational validation. Calculation examples use an explicit 1 bar reference and ideal-gas assumptions.
+
+Try the [applied scenario pathway](learning/applied-scenarios.md) for further practice. See its [review record](reviews/2026-11-04-quiz-expansion.md).
 
 ## Roadmap
 
