@@ -2,7 +2,7 @@
 id: CATALOG-001
 title: Knowledge catalog
 status: draft
-version: 0.2.0
+version: 0.3.0
 ---
 
 # Knowledge catalog
@@ -31,3 +31,36 @@ First concept-level draft across work packages #2–#10; not a complete training
 | AI-001 | [AI-001](knowledge/interoperability/evidence-and-review-status.md) | [AI-Q001](questions/interoperability/evidence-and-review-status.md) | #10 | Draft |
 
 See [coverage and gaps](reviews/2026-11-03-coverage.md), [source checks](reviews/2026-11-03-evidence.md), and [calculation review](reviews/2026-11-03-calculations.md). No content is expert-verified.
+
+## Applied scenario questions
+
+These 24 additional questions revisit existing concepts in new situations. There are now 42 questions linked to 18 knowledge entries. All remain draft. Use the [applied scenario pathway](learning/applied-scenarios.md) for topic groups.
+
+| Question | Focus | Knowledge IDs | Status |
+| --- | --- | --- | --- |
+| [GAS-Q004](questions/gas/pressure-rate-comparison.md) | Compare pressure rates across configurations | GAS-001 | Draft |
+| [GAS-Q005](questions/gas/available-gas-comparison.md) | Compare quantities before comparing reserves | GAS-001, GAS-002 | Draft |
+| [GAS-Q006](questions/gas/exit-delay-demand.md) | Account for a delay in shared-gas demand | GAS-001, GAS-002 | Draft |
+| [GAS-Q007](questions/gas/allocation-versus-failure.md) | A fraction does not validate the failure model | GAS-002 | Draft |
+| [GAS-Q008](questions/gas/oxygen-pressure-change.md) | Apply oxygen fraction at two pressures | GAS-003 | Draft |
+| [GAS-Q009](questions/gas/gas-identity-mismatch.md) | Resolve a gas identity mismatch | GAS-003, RES-001 | Draft |
+| [NAV-Q004](questions/navigation/parallel-team-lines.md) | Identify the team route among nearby lines | NAV-001, NAV-002 | Draft |
+| [NAV-Q005](questions/navigation/connection-direction.md) | A connector does not decide the return branch | NAV-001, NAV-003 | Draft |
+| [NAV-Q006](questions/navigation/unfamiliar-cookie.md) | Interpret a marker without assigning invented meaning | NAV-002 | Draft |
+| [NAV-Q007](questions/navigation/map-line-disagreement.md) | Treat a route discrepancy as unresolved | NAV-001, ENV-002 | Draft |
+| [NAV-Q008](questions/navigation/nearby-line-end.md) | Visibility is not a connection | NAV-003, FND-002 | Draft |
+| [EQP-Q003](questions/equipment/battery-failure-analysis.md) | Evaluate a shared power failure | EQP-002 | Draft |
+| [EQP-Q004](questions/equipment/backup-duration.md) | Check contingency duration as well as operation | EQP-002, RES-001 | Draft |
+| [EQP-Q005](questions/equipment/stationary-task-silt.md) | Depth control is not the whole position problem | EQP-001, PLN-002 | Draft |
+| [EQP-Q006](questions/equipment/primary-light-loss.md) | A working backup does not restore the original plan | EQP-002, PLN-001 | Draft |
+| [PLN-Q003](questions/planning/first-limit.md) | The first limit governs the team | PLN-001, GAS-002 | Draft |
+| [PLN-Q004](questions/planning/briefing-signal-disagreement.md) | Resolve communication disagreement before entry | PLN-002, EMR-001 | Draft |
+| [PLN-Q005](questions/planning/task-priority.md) | Remove an optional task when awareness suffers | PLN-002, EQP-001 | Draft |
+| [EMR-Q002](questions/emergencies/compound-demand.md) | Evaluate the combined failure case | EMR-001, GAS-002 | Draft |
+| [EMR-Q003](questions/emergencies/unpracticed-configuration.md) | Separate a familiar description from demonstrated skill | EMR-001, FND-001 | Draft |
+| [FND-Q003](questions/foundations/flow-return-asymmetry.md) | An easy entry can hide a demanding return | FND-002, GAS-002 | Draft |
+| [FND-Q004](questions/foundations/passage-configuration.md) | Review passage access for the actual configuration | FND-001, FND-002, EMR-001 | Draft |
+| [ENV-Q003](questions/environment/permission-scope.md) | Separate access permission from project permission | ENV-002 | Draft |
+| [RES-Q002](questions/resources/log-evidence-limits.md) | Interpret a dive log within its limits | RES-001, NAV-001, EQP-001 | Draft |
+
+See the [scenario review record](reviews/2026-11-04-quiz-expansion.md) for scope and validation limits.

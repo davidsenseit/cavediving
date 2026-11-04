@@ -65,6 +65,10 @@ class ContentChecks(unittest.TestCase):
         manifest = json.loads((ROOT / 'curriculum-manifest.json').read_text())
         self.assertEqual(manifest['status'], 'draft')
         self.assertEqual({e['issue'] for e in manifest['entries']}, set(range(2, 11)))
+        indexed = [e['question_path'] for e in manifest['entries']]
+        actual = {str(p.relative_to(ROOT)) for p in (ROOT / 'questions').rglob('*.md')}
+        self.assertEqual(len(indexed), len(set(indexed)), 'Duplicate manifest question')
+        self.assertEqual(set(indexed), actual, 'Manifest must index every question')
         for e in manifest['entries']:
             for kind in ('knowledge', 'question'):
                 path = ROOT / e[f'{kind}_path']
