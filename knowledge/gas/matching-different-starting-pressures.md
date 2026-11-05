@@ -38,6 +38,10 @@ Stipulated combined exit demand is 1,680 + 1,680 = **3,360 reference L**. A can 
 
 Using each diver's own thirds would allow A a larger entry quantity, changing the assumptions. Giving both divers a 140 bar threshold would allow A an excessive pressure drop within this common-allowance exercise.
 
+## Visual reasoning prompt
+
+Before using the guided numbers, sketch two pressure bars of equal capacity but different starting pressure. Mark the **same allowed drop** on each, then ask whether their final gauge readings should match. They should not: the drops match, but each reading is subtracted from its own start. This can later be made interactive with two starting-pressure controls and an explicitly displayed common allowance; no interactive tool is required to teach the concept.
+
 ## Guided calculation
 
 Both configurations are 20 L. A starts at 230 bar and B at 180 bar. Set each stipulated exit demand to one third of the lower starting inventory. Calculate common allowance, thresholds and both retained supplies.
