@@ -31,6 +31,14 @@ This is the teaching sequence inside Module 4 of the core course. It is not a se
 5. Ask the follow-up separately. Distinguish conceptual mistakes, method selection and arithmetic. For a conceptual error, return to the relevant explanation with a different example before attempting the next stage. Progress is conversational, not a certification score.
 6. Summarize what the learner can explain and compute. Continue when prerequisites are understood; allow pauses and learner-directed review.
 
+## Learning evidence and feedback
+
+Record evidence by concept, not only whether a numerical answer matches. A learner may be **introduced**, **guided**, **independent**, or **needs review** for each stage. These are study notes, not dive qualifications or a new required storage schema. Ask the learner to predict the direction of change before computing, then explain the result in a changed example before treating the stage as independently understood.
+
+For each calculation, assess four separate dimensions: **model and assumptions**, **method**, **units and arithmetic**, and **interpretation and safety boundary**. Give a targeted correction rather than simply displaying the solution. An answer using a defensible interpretation of an ambiguous prompt must trigger question review, not automatic failure.
+
+Use [the pressure-and-quantity diagram](../assets/gas/pressure-quantity.svg) at Stage 2 to contrast start inventory, gas used and gas remaining. At Stage 6, use the same diagram's idea of **different start pressures but equal pressure drops**: draw two bars or let the learner change the starting pressures, predict both turn readings, then check the common drop. A static or text equivalent must remain available. Visualizations are conceptual and not real-time gas monitoring.
+
 ## Stages
 
 | Stage | Lesson | Independent questions | Evidence before continuing |
@@ -43,6 +51,10 @@ This is the teaching sequence inside Module 4 of the core course. It is not a se
 | 6 | [GAS-009](../knowledge/gas/matching-different-starting-pressures.md) | [GAS-Q020](../questions/gas/unequal-pressure-matching.md), [GAS-Q021](../questions/gas/common-allowance-rounding.md) | Apply a common entry allowance to different actual starts. |
 | 7 | [GAS-010](../knowledge/gas/matching-different-cylinder-sizes.md) | [GAS-Q022](../questions/gas/unequal-capacity-matching.md), [GAS-Q023](../questions/gas/unequal-capacity-rounded-threshold.md) | Identify quantity shortage despite equal gauge pressure. |
 | 8 | [GAS-011](../knowledge/gas/matching-mixed-capacities-and-pressures.md) | [GAS-Q024](../questions/gas/mixed-capacity-pressure-matching.md), [GAS-Q025](../questions/gas/mixed-smaller-donor.md) | Combine both differences without changing fixed demand bounds. |
+
+## Retrieval checkpoints
+
+After Stage 4, ask a new short conversion or turn-pressure question from Stages 1–2 without showing the formula. After Stage 6, revisit the distinction between a common pressure drop and a common final gauge reading. After Stage 8, use a fresh mixed-capacity example and ask which assumption would have to change before claiming operational adequacy. Vary the numbers and ask for reasoning; do not reuse unanswered authored question inputs.
 
 ## Consolidation
 

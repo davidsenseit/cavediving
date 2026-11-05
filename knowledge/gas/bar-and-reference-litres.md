@@ -21,6 +21,12 @@ Convert in both directions, separate gas used from gas remaining, and verify an 
 
 For the same gas quantity, will a larger cylinder require a higher or lower pressure? A larger container requires less pressure for the same quantity in this model.
 
+## Visual model
+
+![Two bars showing starting inventory partitioned into gas used and gas remaining, with labelled pressures and reference litres](../../assets/gas/pressure-quantity.svg)
+
+The diagram uses the worked example below. Ask the learner to identify the **pressure drop** and **remaining gauge reading** separately before calculating. The labelled text and table below provide the same information without relying on the graphic.
+
 ## Two directions
 
 At the stated 1 bar reference, use Q = V × p / 1 bar and p = Q × 1 bar / V. For a change in pressure, gas used is V × (start pressure − current pressure) / 1 bar. Keep the labels on each result: gas used is not gas remaining.

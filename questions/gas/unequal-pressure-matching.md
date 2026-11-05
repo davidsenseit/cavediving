@@ -28,6 +28,14 @@ Show your calculation with units, label the requested quantities and briefly exp
 
 Lower inventory: 24 × 195 = **4,680 reference L**. Common entry allowance and individual exit demand: **1,560 reference L = 65 bar**. A turns at **160 bar**; B at **130 bar**. Combined demand: **3,120 reference L**. A retains **3,840 reference L**, surplus **720 reference L**; B retains **3,120 reference L**, surplus **0 reference L**.
 
+## Interpretation check — ask separately after the calculation
+
+B's computed donor surplus is zero under the stipulated model. Does this calculation alone establish that the team's emergency gas reserve is adequate for an actual cave dive? Name two missing operational inputs.
+
+## Interpretation guidance
+
+No. The stipulated demand and deliverability assumptions do not establish real exit duration, stressed breathing, delays, route constraints, or required residual reserve. A mathematically correct matching threshold is not operational approval. Evaluate this reasoning independently of the arithmetic result.
+
 ## Follow-up discussion
 
 Why would assigning both divers the lower numerical threshold change the permitted entry use?
